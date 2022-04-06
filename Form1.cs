@@ -107,7 +107,7 @@ namespace VehicleManagement
 
                CarChoice = new ChoiceInfo(cbVehicleClass.Text.Trim(), cbCarBrand.Text, cbCarModel.Text);
             //
-               //var level = LevelFactory.GetCarLevel(CarChoice.Level);
+               var level = LevelFactory.GetCarLevel(CarChoice.Level);
 
                //var  branch = level.GetBranch(CarChoice.Branch);
                //var m = branch.GetCarModel(CarChoice.Model);
