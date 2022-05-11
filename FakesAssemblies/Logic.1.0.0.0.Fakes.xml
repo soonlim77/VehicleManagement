@@ -1,0 +1,1991 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Logic.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Logic.Factory.Fakes.ShimCompactFactory">
+            <summary>Shim type of Logic.Factory.CompactFactory</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimCompactFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimCompactFactory.#ctor(Logic.Factory.CompactFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Factory.Fakes.ShimCompactFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.ShimCompactFactory.AllInstances.GetBranchString">
+            <summary>Sets the Shim of CompactFactory.GetBranch(String level)</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimCompactFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimCompactFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.ShimCompactFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimCompactFactory.Bind(Logic.Factory.IVehicleFactory)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.ShimCompactFactory.Constructor">
+            <summary>Sets the Shim of CompactFactory.CompactFactory()</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.ShimCompactFactory.GetBranchString">
+            <summary>Sets the Shim of CompactFactory.GetBranch(String level)</summary>
+        </member>
+        <member name="T:Logic.Factory.Fakes.ShimEconFactory">
+            <summary>Shim type of Logic.Factory.EconFactory</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimEconFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimEconFactory.#ctor(Logic.Factory.EconFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Factory.Fakes.ShimEconFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.ShimEconFactory.AllInstances.GetBranchString">
+            <summary>Sets the Shim of EconFactory.GetBranch(String level)</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimEconFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimEconFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.ShimEconFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimEconFactory.Bind(Logic.Factory.IVehicleFactory)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.ShimEconFactory.Constructor">
+            <summary>Sets the Shim of EconFactory.EconFactory()</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.ShimEconFactory.GetBranchString">
+            <summary>Sets the Shim of EconFactory.GetBranch(String level)</summary>
+        </member>
+        <member name="T:Logic.Factory.Fakes.ShimLuxuriousFactory">
+            <summary>Shim type of Logic.Factory.LuxuriousFactory</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimLuxuriousFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimLuxuriousFactory.#ctor(Logic.Factory.LuxuriousFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Factory.Fakes.ShimLuxuriousFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.ShimLuxuriousFactory.AllInstances.GetBranchString">
+            <summary>Sets the Shim of LuxuriousFactory.GetBranch(String level)</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimLuxuriousFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimLuxuriousFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.ShimLuxuriousFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.ShimLuxuriousFactory.Bind(Logic.Factory.IVehicleFactory)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.ShimLuxuriousFactory.Constructor">
+            <summary>Sets the Shim of LuxuriousFactory.LuxuriousFactory()</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.ShimLuxuriousFactory.GetBranchString">
+            <summary>Sets the Shim of LuxuriousFactory.GetBranch(String level)</summary>
+        </member>
+        <member name="T:Logic.Factory.Fakes.StubCompactFactory">
+            <summary>Stub type of Logic.Factory.CompactFactory</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.StubCompactFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.StubCompactFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.StubCompactFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubCompactFactory</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.StubCompactFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.StubCompactFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Factory.Fakes.StubEconFactory">
+            <summary>Stub type of Logic.Factory.EconFactory</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.StubEconFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.StubEconFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.StubEconFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubEconFactory</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.StubEconFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.StubEconFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Factory.Fakes.StubIVehicleFactory">
+            <summary>Stub type of Logic.Factory.IVehicleFactory</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.StubIVehicleFactory.#ctor">
+            <summary>Initializes a new instance of type StubIVehicleFactory</summary>
+        </member>
+        <member name="F:Logic.Factory.Fakes.StubIVehicleFactory.GetBranchString">
+            <summary>Sets the stub of IVehicleFactory.GetBranch(String level)</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.StubIVehicleFactory.Logic#Factory#IVehicleFactory#GetBranch(System.String)">
+            <summary>Sets the Stub of IVehicleFactory.GetBranch(String level)</summary>
+        </member>
+        <member name="T:Logic.Factory.Fakes.StubLuxuriousFactory">
+            <summary>Stub type of Logic.Factory.LuxuriousFactory</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.StubLuxuriousFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.StubLuxuriousFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Factory.Fakes.StubLuxuriousFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubLuxuriousFactory</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.StubLuxuriousFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Factory.Fakes.StubLuxuriousFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Fakes.ShimLevelFactory">
+            <summary>Shim type of Logic.LevelFactory</summary>
+        </member>
+        <member name="M:Logic.Fakes.ShimLevelFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Fakes.ShimLevelFactory.#ctor(Logic.LevelFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Fakes.ShimLevelFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Logic.Fakes.ShimLevelFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Fakes.ShimLevelFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Fakes.ShimLevelFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Fakes.ShimLevelFactory.Constructor">
+            <summary>Sets the Shim of LevelFactory.LevelFactory()</summary>
+        </member>
+        <member name="P:Logic.Fakes.ShimLevelFactory.GetCarLevelString">
+            <summary>Sets the Shim of LevelFactory.GetCarLevel(String level)</summary>
+        </member>
+        <member name="T:Logic.Fakes.StubLevelFactory">
+            <summary>Stub type of Logic.LevelFactory</summary>
+        </member>
+        <member name="M:Logic.Fakes.StubLevelFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Fakes.StubLevelFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Fakes.StubLevelFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubLevelFactory</summary>
+        </member>
+        <member name="P:Logic.Fakes.StubLevelFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Fakes.StubLevelFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.ShimFocus">
+            <summary>Shim type of Logic.Model.Car.Compact.Focus</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimFocus.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimFocus.#ctor(Logic.Model.Car.Compact.Focus)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.ShimFocus.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimFocus.AllInstances.Describe">
+            <summary>Sets the Shim of Focus.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimFocus.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimFocus.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimFocus.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimFocus.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimFocus.Constructor">
+            <summary>Sets the Shim of Focus.Focus()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimFocus.Describe">
+            <summary>Sets the Shim of Focus.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.ShimGrand">
+            <summary>Shim type of Logic.Model.Car.Compact.Grand</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimGrand.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimGrand.#ctor(Logic.Model.Car.Compact.Grand)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.ShimGrand.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimGrand.AllInstances.Describe">
+            <summary>Sets the Shim of Grand.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimGrand.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimGrand.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimGrand.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimGrand.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimGrand.Constructor">
+            <summary>Sets the Shim of Grand.Grand()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimGrand.Describe">
+            <summary>Sets the Shim of Grand.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.ShimImpala">
+            <summary>Shim type of Logic.Model.Car.Compact.Impala</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimImpala.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimImpala.#ctor(Logic.Model.Car.Compact.Impala)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.ShimImpala.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimImpala.AllInstances.Describe">
+            <summary>Sets the Shim of Impala.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimImpala.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimImpala.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimImpala.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimImpala.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimImpala.Constructor">
+            <summary>Sets the Shim of Impala.Impala()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimImpala.Describe">
+            <summary>Sets the Shim of Impala.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.ShimMyvi">
+            <summary>Shim type of Logic.Model.Car.Compact.Myvi</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimMyvi.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimMyvi.#ctor(Logic.Model.Car.Compact.Myvi)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.ShimMyvi.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimMyvi.AllInstances.Describe">
+            <summary>Sets the Shim of Myvi.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimMyvi.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimMyvi.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimMyvi.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimMyvi.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimMyvi.Constructor">
+            <summary>Sets the Shim of Myvi.Myvi()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimMyvi.Describe">
+            <summary>Sets the Shim of Myvi.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.ShimPersona">
+            <summary>Shim type of Logic.Model.Car.Compact.Persona</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimPersona.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimPersona.#ctor(Logic.Model.Car.Compact.Persona)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.ShimPersona.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimPersona.AllInstances.Describe">
+            <summary>Sets the Shim of Persona.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimPersona.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimPersona.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimPersona.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimPersona.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimPersona.Constructor">
+            <summary>Sets the Shim of Persona.Persona()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimPersona.Describe">
+            <summary>Sets the Shim of Persona.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.ShimSaga">
+            <summary>Shim type of Logic.Model.Car.Compact.Saga</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimSaga.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimSaga.#ctor(Logic.Model.Car.Compact.Saga)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.ShimSaga.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimSaga.AllInstances.Describe">
+            <summary>Sets the Shim of Saga.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimSaga.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimSaga.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimSaga.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.ShimSaga.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimSaga.Constructor">
+            <summary>Sets the Shim of Saga.Saga()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.ShimSaga.Describe">
+            <summary>Sets the Shim of Saga.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.StubFocus">
+            <summary>Stub type of Logic.Model.Car.Compact.Focus</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubFocus.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubFocus.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubFocus.Describe">
+            <summary>Sets the Stub of Focus.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Compact.Fakes.StubFocus.Describe01">
+            <summary>Sets the stub of Focus.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubFocus.InitializeStub">
+            <summary>Initializes a new instance of type StubFocus</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubFocus.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubFocus.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.StubGrand">
+            <summary>Stub type of Logic.Model.Car.Compact.Grand</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubGrand.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubGrand.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubGrand.Describe">
+            <summary>Sets the Stub of Grand.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Compact.Fakes.StubGrand.Describe01">
+            <summary>Sets the stub of Grand.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubGrand.InitializeStub">
+            <summary>Initializes a new instance of type StubGrand</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubGrand.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubGrand.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.StubImpala">
+            <summary>Stub type of Logic.Model.Car.Compact.Impala</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubImpala.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubImpala.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubImpala.Describe">
+            <summary>Sets the Stub of Impala.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Compact.Fakes.StubImpala.Describe01">
+            <summary>Sets the stub of Impala.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubImpala.InitializeStub">
+            <summary>Initializes a new instance of type StubImpala</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubImpala.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubImpala.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.StubMyvi">
+            <summary>Stub type of Logic.Model.Car.Compact.Myvi</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubMyvi.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubMyvi.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubMyvi.Describe">
+            <summary>Sets the Stub of Myvi.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Compact.Fakes.StubMyvi.Describe01">
+            <summary>Sets the stub of Myvi.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubMyvi.InitializeStub">
+            <summary>Initializes a new instance of type StubMyvi</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubMyvi.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubMyvi.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.StubPersona">
+            <summary>Stub type of Logic.Model.Car.Compact.Persona</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubPersona.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubPersona.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubPersona.Describe">
+            <summary>Sets the Stub of Persona.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Compact.Fakes.StubPersona.Describe01">
+            <summary>Sets the stub of Persona.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubPersona.InitializeStub">
+            <summary>Initializes a new instance of type StubPersona</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubPersona.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubPersona.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Compact.Fakes.StubSaga">
+            <summary>Stub type of Logic.Model.Car.Compact.Saga</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubSaga.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubSaga.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubSaga.Describe">
+            <summary>Sets the Stub of Saga.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Compact.Fakes.StubSaga.Describe01">
+            <summary>Sets the stub of Saga.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Compact.Fakes.StubSaga.InitializeStub">
+            <summary>Initializes a new instance of type StubSaga</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubSaga.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Compact.Fakes.StubSaga.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimAccord">
+            <summary>Shim type of Logic.Model.Car.Econ.Accord</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimAccord.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimAccord.#ctor(Logic.Model.Car.Econ.Accord)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimAccord.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimAccord.AllInstances.Describe">
+            <summary>Sets the Shim of Accord.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimAccord.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimAccord.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimAccord.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimAccord.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimAccord.Constructor">
+            <summary>Sets the Shim of Accord.Accord()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimAccord.Describe">
+            <summary>Sets the Shim of Accord.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimCamry">
+            <summary>Shim type of Logic.Model.Car.Econ.Camry</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCamry.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCamry.#ctor(Logic.Model.Car.Econ.Camry)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimCamry.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCamry.AllInstances.Describe">
+            <summary>Sets the Shim of Camry.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCamry.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCamry.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCamry.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCamry.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCamry.Constructor">
+            <summary>Sets the Shim of Camry.Camry()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCamry.Describe">
+            <summary>Sets the Shim of Camry.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimCity">
+            <summary>Shim type of Logic.Model.Car.Econ.City</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCity.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCity.#ctor(Logic.Model.Car.Econ.City)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimCity.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCity.AllInstances.Describe">
+            <summary>Sets the Shim of City.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCity.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCity.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCity.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCity.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCity.Constructor">
+            <summary>Sets the Shim of City.City()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCity.Describe">
+            <summary>Sets the Shim of City.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimCivic">
+            <summary>Shim type of Logic.Model.Car.Econ.Civic</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCivic.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCivic.#ctor(Logic.Model.Car.Econ.Civic)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimCivic.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCivic.AllInstances.Describe">
+            <summary>Sets the Shim of Civic.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCivic.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCivic.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCivic.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCivic.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCivic.Constructor">
+            <summary>Sets the Shim of Civic.Civic()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCivic.Describe">
+            <summary>Sets the Shim of Civic.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimCorolla">
+            <summary>Shim type of Logic.Model.Car.Econ.Corolla</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCorolla.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCorolla.#ctor(Logic.Model.Car.Econ.Corolla)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimCorolla.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCorolla.AllInstances.Describe">
+            <summary>Sets the Shim of Corolla.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCorolla.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCorolla.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCorolla.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimCorolla.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCorolla.Constructor">
+            <summary>Sets the Shim of Corolla.Corolla()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimCorolla.Describe">
+            <summary>Sets the Shim of Corolla.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimM3">
+            <summary>Shim type of Logic.Model.Car.Econ.M3</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimM3.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimM3.#ctor(Logic.Model.Car.Econ.M3)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimM3.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimM3.AllInstances.Describe">
+            <summary>Sets the Shim of M3.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimM3.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimM3.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimM3.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimM3.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimM3.Constructor">
+            <summary>Sets the Shim of M3.M3()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimM3.Describe">
+            <summary>Sets the Shim of M3.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimM6">
+            <summary>Shim type of Logic.Model.Car.Econ.M6</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimM6.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimM6.#ctor(Logic.Model.Car.Econ.M6)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.ShimM6.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimM6.AllInstances.Describe">
+            <summary>Sets the Shim of M6.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimM6.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimM6.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimM6.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.ShimM6.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimM6.Constructor">
+            <summary>Sets the Shim of M6.M6()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.ShimM6.Describe">
+            <summary>Sets the Shim of M6.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.StubAccord">
+            <summary>Stub type of Logic.Model.Car.Econ.Accord</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubAccord.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubAccord.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubAccord.Describe">
+            <summary>Sets the Stub of Accord.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Econ.Fakes.StubAccord.Describe01">
+            <summary>Sets the stub of Accord.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubAccord.InitializeStub">
+            <summary>Initializes a new instance of type StubAccord</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubAccord.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubAccord.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.StubCamry">
+            <summary>Stub type of Logic.Model.Car.Econ.Camry</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubCamry.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubCamry.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubCamry.Describe">
+            <summary>Sets the Stub of Camry.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Econ.Fakes.StubCamry.Describe01">
+            <summary>Sets the stub of Camry.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubCamry.InitializeStub">
+            <summary>Initializes a new instance of type StubCamry</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubCamry.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubCamry.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.StubCity">
+            <summary>Stub type of Logic.Model.Car.Econ.City</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubCity.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubCity.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubCity.Describe">
+            <summary>Sets the Stub of City.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Econ.Fakes.StubCity.Describe01">
+            <summary>Sets the stub of City.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubCity.InitializeStub">
+            <summary>Initializes a new instance of type StubCity</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubCity.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubCity.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.StubCivic">
+            <summary>Stub type of Logic.Model.Car.Econ.Civic</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubCivic.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubCivic.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubCivic.Describe">
+            <summary>Sets the Stub of Civic.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Econ.Fakes.StubCivic.Describe01">
+            <summary>Sets the stub of Civic.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubCivic.InitializeStub">
+            <summary>Initializes a new instance of type StubCivic</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubCivic.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubCivic.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.StubCorolla">
+            <summary>Stub type of Logic.Model.Car.Econ.Corolla</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubCorolla.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubCorolla.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubCorolla.Describe">
+            <summary>Sets the Stub of Corolla.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Econ.Fakes.StubCorolla.Describe01">
+            <summary>Sets the stub of Corolla.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubCorolla.InitializeStub">
+            <summary>Initializes a new instance of type StubCorolla</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubCorolla.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubCorolla.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.StubM3">
+            <summary>Stub type of Logic.Model.Car.Econ.M3</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubM3.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubM3.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubM3.Describe">
+            <summary>Sets the Stub of M3.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Econ.Fakes.StubM3.Describe01">
+            <summary>Sets the stub of M3.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubM3.InitializeStub">
+            <summary>Initializes a new instance of type StubM3</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubM3.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubM3.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Econ.Fakes.StubM6">
+            <summary>Stub type of Logic.Model.Car.Econ.M6</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubM6.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubM6.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubM6.Describe">
+            <summary>Sets the Stub of M6.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Econ.Fakes.StubM6.Describe01">
+            <summary>Sets the stub of M6.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Econ.Fakes.StubM6.InitializeStub">
+            <summary>Initializes a new instance of type StubM6</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubM6.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Econ.Fakes.StubM6.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Fakes.ShimCompactCar">
+            <summary>Shim type of Logic.Model.Car.CompactCar</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.ShimCompactCar.#ctor(Logic.Model.Car.CompactCar)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Fakes.ShimCompactCar.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.ShimCompactCar.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.ShimCompactCar.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.ShimCompactCar.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.ShimCompactCar.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.ShimCompactCar.Constructor">
+            <summary>Sets the Shim of CompactCar.CompactCar()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Fakes.ShimEconCar">
+            <summary>Shim type of Logic.Model.Car.EconCar</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.ShimEconCar.#ctor(Logic.Model.Car.EconCar)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Fakes.ShimEconCar.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.ShimEconCar.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.ShimEconCar.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.ShimEconCar.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.ShimEconCar.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.ShimEconCar.Constructor">
+            <summary>Sets the Shim of EconCar.EconCar()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Fakes.ShimLuxuriousCar">
+            <summary>Shim type of Logic.Model.Car.LuxuriousCar</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.ShimLuxuriousCar.#ctor(Logic.Model.Car.LuxuriousCar)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Fakes.ShimLuxuriousCar.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.ShimLuxuriousCar.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.ShimLuxuriousCar.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.ShimLuxuriousCar.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.ShimLuxuriousCar.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.ShimLuxuriousCar.Constructor">
+            <summary>Sets the Shim of LuxuriousCar.LuxuriousCar()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Fakes.StubCompactCar">
+            <summary>Stub type of Logic.Model.Car.CompactCar</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.StubCompactCar.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.StubCompactCar.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.StubCompactCar.Describe">
+            <summary>Sets the Stub of CompactCar.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Fakes.StubCompactCar.Describe01">
+            <summary>Sets the stub of CompactCar.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.StubCompactCar.InitializeStub">
+            <summary>Initializes a new instance of type StubCompactCar</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.StubCompactCar.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.StubCompactCar.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Fakes.StubEconCar">
+            <summary>Stub type of Logic.Model.Car.EconCar</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.StubEconCar.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.StubEconCar.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.StubEconCar.Describe">
+            <summary>Sets the Stub of EconCar.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Fakes.StubEconCar.Describe01">
+            <summary>Sets the stub of EconCar.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.StubEconCar.InitializeStub">
+            <summary>Initializes a new instance of type StubEconCar</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.StubEconCar.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.StubEconCar.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Fakes.StubICar">
+            <summary>Stub type of Logic.Model.Car.ICar</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.StubICar.#ctor">
+            <summary>Initializes a new instance of type StubICar</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Fakes.StubICar.Describe">
+            <summary>Sets the stub of ICar.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.StubICar.Logic#Model#Car#ICar#Describe">
+            <summary>Sets the Stub of ICar.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Fakes.StubLuxuriousCar">
+            <summary>Stub type of Logic.Model.Car.LuxuriousCar</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.StubLuxuriousCar.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.StubLuxuriousCar.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.StubLuxuriousCar.Describe">
+            <summary>Sets the Stub of LuxuriousCar.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Fakes.StubLuxuriousCar.Describe01">
+            <summary>Sets the stub of LuxuriousCar.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Fakes.StubLuxuriousCar.InitializeStub">
+            <summary>Initializes a new instance of type StubLuxuriousCar</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.StubLuxuriousCar.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Fakes.StubLuxuriousCar.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimC200">
+            <summary>Shim type of Logic.Model.Car.Lux.C200</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimC200.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimC200.#ctor(Logic.Model.Car.Lux.C200)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimC200.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimC200.AllInstances.Describe">
+            <summary>Sets the Shim of C200.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimC200.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimC200.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimC200.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimC200.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimC200.Constructor">
+            <summary>Sets the Shim of C200.C200()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimC200.Describe">
+            <summary>Sets the Shim of C200.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimE300">
+            <summary>Shim type of Logic.Model.Car.Lux.E300</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimE300.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimE300.#ctor(Logic.Model.Car.Lux.E300)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimE300.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimE300.AllInstances.Describe">
+            <summary>Sets the Shim of E300.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimE300.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimE300.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimE300.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimE300.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimE300.Constructor">
+            <summary>Sets the Shim of E300.E300()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimE300.Describe">
+            <summary>Sets the Shim of E300.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimQX3">
+            <summary>Shim type of Logic.Model.Car.Lux.QX3</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimQX3.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimQX3.#ctor(Logic.Model.Car.Lux.QX3)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimQX3.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimQX3.AllInstances.Describe">
+            <summary>Sets the Shim of QX3.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimQX3.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimQX3.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimQX3.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimQX3.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimQX3.Constructor">
+            <summary>Sets the Shim of QX3.QX3()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimQX3.Describe">
+            <summary>Sets the Shim of QX3.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimQX5">
+            <summary>Shim type of Logic.Model.Car.Lux.QX5</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimQX5.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimQX5.#ctor(Logic.Model.Car.Lux.QX5)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimQX5.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimQX5.AllInstances.Describe">
+            <summary>Sets the Shim of QX5.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimQX5.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimQX5.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimQX5.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimQX5.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimQX5.Constructor">
+            <summary>Sets the Shim of QX5.QX5()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimQX5.Describe">
+            <summary>Sets the Shim of QX5.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimS400">
+            <summary>Shim type of Logic.Model.Car.Lux.S400</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimS400.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimS400.#ctor(Logic.Model.Car.Lux.S400)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimS400.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimS400.AllInstances.Describe">
+            <summary>Sets the Shim of S400.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimS400.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimS400.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimS400.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimS400.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimS400.Constructor">
+            <summary>Sets the Shim of S400.S400()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimS400.Describe">
+            <summary>Sets the Shim of S400.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimX1">
+            <summary>Shim type of Logic.Model.Car.Lux.X1</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX1.#ctor(Logic.Model.Car.Lux.X1)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimX1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimX1.AllInstances.Describe">
+            <summary>Sets the Shim of X1.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimX1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX1.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimX1.Constructor">
+            <summary>Sets the Shim of X1.X1()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimX1.Describe">
+            <summary>Sets the Shim of X1.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimX3">
+            <summary>Shim type of Logic.Model.Car.Lux.X3</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX3.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX3.#ctor(Logic.Model.Car.Lux.X3)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimX3.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimX3.AllInstances.Describe">
+            <summary>Sets the Shim of X3.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX3.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX3.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimX3.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX3.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimX3.Constructor">
+            <summary>Sets the Shim of X3.X3()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimX3.Describe">
+            <summary>Sets the Shim of X3.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimX5">
+            <summary>Shim type of Logic.Model.Car.Lux.X5</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX5.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX5.#ctor(Logic.Model.Car.Lux.X5)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.ShimX5.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimX5.AllInstances.Describe">
+            <summary>Sets the Shim of X5.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX5.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX5.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimX5.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.ShimX5.Bind(Logic.Model.Car.ICar)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimX5.Constructor">
+            <summary>Sets the Shim of X5.X5()</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.ShimX5.Describe">
+            <summary>Sets the Shim of X5.Describe()</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.StubC200">
+            <summary>Stub type of Logic.Model.Car.Lux.C200</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubC200.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubC200.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubC200.Describe">
+            <summary>Sets the Stub of C200.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Lux.Fakes.StubC200.Describe01">
+            <summary>Sets the stub of C200.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubC200.InitializeStub">
+            <summary>Initializes a new instance of type StubC200</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubC200.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubC200.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.StubE300">
+            <summary>Stub type of Logic.Model.Car.Lux.E300</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubE300.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubE300.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubE300.Describe">
+            <summary>Sets the Stub of E300.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Lux.Fakes.StubE300.Describe01">
+            <summary>Sets the stub of E300.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubE300.InitializeStub">
+            <summary>Initializes a new instance of type StubE300</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubE300.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubE300.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.StubQX3">
+            <summary>Stub type of Logic.Model.Car.Lux.QX3</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubQX3.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubQX3.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubQX3.Describe">
+            <summary>Sets the Stub of QX3.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Lux.Fakes.StubQX3.Describe01">
+            <summary>Sets the stub of QX3.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubQX3.InitializeStub">
+            <summary>Initializes a new instance of type StubQX3</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubQX3.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubQX3.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.StubQX5">
+            <summary>Stub type of Logic.Model.Car.Lux.QX5</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubQX5.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubQX5.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubQX5.Describe">
+            <summary>Sets the Stub of QX5.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Lux.Fakes.StubQX5.Describe01">
+            <summary>Sets the stub of QX5.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubQX5.InitializeStub">
+            <summary>Initializes a new instance of type StubQX5</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubQX5.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubQX5.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.StubS400">
+            <summary>Stub type of Logic.Model.Car.Lux.S400</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubS400.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubS400.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubS400.Describe">
+            <summary>Sets the Stub of S400.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Lux.Fakes.StubS400.Describe01">
+            <summary>Sets the stub of S400.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubS400.InitializeStub">
+            <summary>Initializes a new instance of type StubS400</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubS400.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubS400.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.StubX1">
+            <summary>Stub type of Logic.Model.Car.Lux.X1</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubX1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubX1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubX1.Describe">
+            <summary>Sets the Stub of X1.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Lux.Fakes.StubX1.Describe01">
+            <summary>Sets the stub of X1.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubX1.InitializeStub">
+            <summary>Initializes a new instance of type StubX1</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubX1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubX1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.StubX3">
+            <summary>Stub type of Logic.Model.Car.Lux.X3</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubX3.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubX3.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubX3.Describe">
+            <summary>Sets the Stub of X3.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Lux.Fakes.StubX3.Describe01">
+            <summary>Sets the stub of X3.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubX3.InitializeStub">
+            <summary>Initializes a new instance of type StubX3</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubX3.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubX3.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.Model.Car.Lux.Fakes.StubX5">
+            <summary>Stub type of Logic.Model.Car.Lux.X5</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubX5.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubX5.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubX5.Describe">
+            <summary>Sets the Stub of X5.Describe()</summary>
+        </member>
+        <member name="F:Logic.Model.Car.Lux.Fakes.StubX5.Describe01">
+            <summary>Sets the stub of X5.Describe()</summary>
+        </member>
+        <member name="M:Logic.Model.Car.Lux.Fakes.StubX5.InitializeStub">
+            <summary>Initializes a new instance of type StubX5</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubX5.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.Model.Car.Lux.Fakes.StubX5.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory">
+            <summary>Shim type of Logic.ModelFactory.CompactFactory.ChevroletModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.#ctor(Logic.ModelFactory.CompactFactory.ChevroletModelFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.AllInstances.GetCarModelString">
+            <summary>Sets the Shim of ChevroletModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.Bind(Logic.ModelFactory.IVehicleModel)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.Constructor">
+            <summary>Sets the Shim of ChevroletModelFactory.ChevroletModelFactory()</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.GetCarModelString">
+            <summary>Sets the Shim of ChevroletModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory">
+            <summary>Shim type of Logic.ModelFactory.CompactFactory.ProtonModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.#ctor(Logic.ModelFactory.CompactFactory.ProtonModelFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.AllInstances.GetCarModelString">
+            <summary>Sets the Shim of ProtonModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.Bind(Logic.ModelFactory.IVehicleModel)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.Constructor">
+            <summary>Sets the Shim of ProtonModelFactory.ProtonModelFactory()</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.GetCarModelString">
+            <summary>Sets the Shim of ProtonModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.CompactFactory.Fakes.StubChevroletModelFactory">
+            <summary>Stub type of Logic.ModelFactory.CompactFactory.ChevroletModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.StubChevroletModelFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.StubChevroletModelFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.StubChevroletModelFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubChevroletModelFactory</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.StubChevroletModelFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.StubChevroletModelFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.CompactFactory.Fakes.StubProtonModelFactory">
+            <summary>Stub type of Logic.ModelFactory.CompactFactory.ProtonModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.StubProtonModelFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.StubProtonModelFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.CompactFactory.Fakes.StubProtonModelFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubProtonModelFactory</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.StubProtonModelFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.CompactFactory.Fakes.StubProtonModelFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory">
+            <summary>Shim type of Logic.ModelFactory.EconModelFactory.HondaModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.#ctor(Logic.ModelFactory.EconModelFactory.HondaModelFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.AllInstances.GetCarModelString">
+            <summary>Sets the Shim of HondaModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.Bind(Logic.ModelFactory.IVehicleModel)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.Constructor">
+            <summary>Sets the Shim of HondaModelFactory.HondaModelFactory()</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.GetCarModelString">
+            <summary>Sets the Shim of HondaModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory">
+            <summary>Shim type of Logic.ModelFactory.EconModelFactory.MazdaModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.#ctor(Logic.ModelFactory.EconModelFactory.MazdaModelFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.AllInstances.GetCarModelString">
+            <summary>Sets the Shim of MazdaModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.Bind(Logic.ModelFactory.IVehicleModel)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.Constructor">
+            <summary>Sets the Shim of MazdaModelFactory.MazdaModelFactory()</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.GetCarModelString">
+            <summary>Sets the Shim of MazdaModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory">
+            <summary>Shim type of Logic.ModelFactory.EconModelFactory.ToyotaModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.#ctor(Logic.ModelFactory.EconModelFactory.ToyotaModelFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.AllInstances.GetCarModelString">
+            <summary>Sets the Shim of ToyotaModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.Bind(Logic.ModelFactory.IVehicleModel)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.Constructor">
+            <summary>Sets the Shim of ToyotaModelFactory.ToyotaModelFactory()</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.GetCarModelString">
+            <summary>Sets the Shim of ToyotaModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.EconModelFactory.Fakes.StubHondaModelFactory">
+            <summary>Stub type of Logic.ModelFactory.EconModelFactory.HondaModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.StubHondaModelFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.StubHondaModelFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.StubHondaModelFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubHondaModelFactory</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.StubHondaModelFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.StubHondaModelFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.EconModelFactory.Fakes.StubMazdaModelFactory">
+            <summary>Stub type of Logic.ModelFactory.EconModelFactory.MazdaModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.StubMazdaModelFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.StubMazdaModelFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.StubMazdaModelFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubMazdaModelFactory</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.StubMazdaModelFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.StubMazdaModelFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.EconModelFactory.Fakes.StubToyotaModelFactory">
+            <summary>Stub type of Logic.ModelFactory.EconModelFactory.ToyotaModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.StubToyotaModelFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.StubToyotaModelFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.EconModelFactory.Fakes.StubToyotaModelFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubToyotaModelFactory</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.StubToyotaModelFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.EconModelFactory.Fakes.StubToyotaModelFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.Fakes.StubIVehicleModel">
+            <summary>Stub type of Logic.ModelFactory.IVehicleModel</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.Fakes.StubIVehicleModel.#ctor">
+            <summary>Initializes a new instance of type StubIVehicleModel</summary>
+        </member>
+        <member name="F:Logic.ModelFactory.Fakes.StubIVehicleModel.GetCarModelString">
+            <summary>Sets the stub of IVehicleModel.GetCarModel(String brand)</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.Fakes.StubIVehicleModel.Logic#ModelFactory#IVehicleModel#GetCarModel(System.String)">
+            <summary>Sets the Stub of IVehicleModel.GetCarModel(String brand)</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory">
+            <summary>Shim type of Logic.ModelFactory.LuxModelFactory.AudiModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.#ctor(Logic.ModelFactory.LuxModelFactory.AudiModelFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.AllInstances.GetCarModelString">
+            <summary>Sets the Shim of AudiModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.Bind(Logic.ModelFactory.IVehicleModel)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.Constructor">
+            <summary>Sets the Shim of AudiModelFactory.AudiModelFactory()</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.GetCarModelString">
+            <summary>Sets the Shim of AudiModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory">
+            <summary>Shim type of Logic.ModelFactory.LuxModelFactory.BMWModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.#ctor(Logic.ModelFactory.LuxModelFactory.BMWModelFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.AllInstances.GetCarModelString">
+            <summary>Sets the Shim of BMWModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.Bind(Logic.ModelFactory.IVehicleModel)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.Constructor">
+            <summary>Sets the Shim of BMWModelFactory.BMWModelFactory()</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.GetCarModelString">
+            <summary>Sets the Shim of BMWModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory">
+            <summary>Shim type of Logic.ModelFactory.LuxModelFactory.BenzModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.#ctor(Logic.ModelFactory.LuxModelFactory.BenzModelFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.AllInstances.GetCarModelString">
+            <summary>Sets the Shim of BenzModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.Bind(Logic.ModelFactory.IVehicleModel)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.Constructor">
+            <summary>Sets the Shim of BenzModelFactory.BenzModelFactory()</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.GetCarModelString">
+            <summary>Sets the Shim of BenzModelFactory.GetCarModel(String brand)</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.LuxModelFactory.Fakes.StubAudiModelFactory">
+            <summary>Stub type of Logic.ModelFactory.LuxModelFactory.AudiModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.StubAudiModelFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.StubAudiModelFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.StubAudiModelFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubAudiModelFactory</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.StubAudiModelFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.StubAudiModelFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.LuxModelFactory.Fakes.StubBMWModelFactory">
+            <summary>Stub type of Logic.ModelFactory.LuxModelFactory.BMWModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.StubBMWModelFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.StubBMWModelFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.StubBMWModelFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubBMWModelFactory</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.StubBMWModelFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.StubBMWModelFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Logic.ModelFactory.LuxModelFactory.Fakes.StubBenzModelFactory">
+            <summary>Stub type of Logic.ModelFactory.LuxModelFactory.BenzModelFactory</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.StubBenzModelFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.StubBenzModelFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Logic.ModelFactory.LuxModelFactory.Fakes.StubBenzModelFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubBenzModelFactory</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.StubBenzModelFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Logic.ModelFactory.LuxModelFactory.Fakes.StubBenzModelFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

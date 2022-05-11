@@ -1,5 +1,5 @@
-﻿using Logic;
-using Logic.Factory;
+﻿using VehicleLogic;
+using VehicleLogic.Factory;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -102,7 +102,7 @@ namespace VehicleManagement
         private void btnDescribeMe_Click(object sender, EventArgs e)
         {
 
-            string msg = "Nothing";
+            string msg = "Tesla Company";
 
 
                CarChoice = new ChoiceInfo(cbVehicleClass.Text.Trim(), cbCarBrand.Text, cbCarModel.Text);
@@ -115,7 +115,7 @@ namespace VehicleManagement
                // msg=  m.Describe();
 
 
-           MessageBox.Show("hi " + msg + " " + CarChoice.Level + " "+CarChoice.Branch + " " +  CarChoice.Model );
+           MessageBox.Show("hi " + msg + " , " + CarChoice.Level + " "+CarChoice.Branch + " " +  CarChoice.Model );
 
         }
 

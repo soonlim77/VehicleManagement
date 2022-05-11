@@ -29,6 +29,7 @@ namespace VehicleManagement
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lbLevel = new System.Windows.Forms.Label();
             this.lbCarBrand = new System.Windows.Forms.Label();
             this.lbCarModel = new System.Windows.Forms.Label();
@@ -164,6 +165,7 @@ namespace VehicleManagement
             this.Controls.Add(this.btnTest);
             this.Controls.Add(this.btnDescribeMe);
             this.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Vehicle Management System";

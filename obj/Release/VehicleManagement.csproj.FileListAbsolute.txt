@@ -1,0 +1,12 @@
+C:\soonlim\VehicleManagement\bin\Release\VehicleManagement.exe.config
+C:\soonlim\VehicleManagement\bin\Release\VehicleManagement.exe
+C:\soonlim\VehicleManagement\bin\Release\VehicleManagement.pdb
+C:\soonlim\VehicleManagement\bin\Release\Logic.dll
+C:\soonlim\VehicleManagement\obj\Release\VehicleManagement.csproj.AssemblyReference.cache
+C:\soonlim\VehicleManagement\obj\Release\VehicleManagement.Form1.resources
+C:\soonlim\VehicleManagement\obj\Release\VehicleManagement.Properties.Resources.resources
+C:\soonlim\VehicleManagement\obj\Release\VehicleManagement.csproj.GenerateResource.cache
+C:\soonlim\VehicleManagement\obj\Release\VehicleManagement.csproj.CoreCompileInputs.cache
+C:\soonlim\VehicleManagement\obj\Release\VehicleManagement.csproj.CopyComplete
+C:\soonlim\VehicleManagement\obj\Release\VehicleManagement.exe
+C:\soonlim\VehicleManagement\obj\Release\VehicleManagement.pdb
