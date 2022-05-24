@@ -74,7 +74,8 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="VehicleLogic">
+    <Reference Include="VehicleLogic, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\VehicleLogic\bin\Debug\VehicleLogic.dll</HintPath>
     </Reference>
   </ItemGroup>

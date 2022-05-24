@@ -25,7 +25,7 @@ namespace VehicleManagement
         public Form1()
         {
             InitializeComponent();
-         //   CarBrandinitialization();
+             // CarModelinitialization();
         }
 
 
@@ -102,20 +102,23 @@ namespace VehicleManagement
         private void btnDescribeMe_Click(object sender, EventArgs e)
         {
 
-            string msg = "Tesla Company";
+            string Greeting = "Tesla Company";
 
 
                CarChoice = new ChoiceInfo(cbVehicleClass.Text.Trim(), cbCarBrand.Text, cbCarModel.Text);
             //
                var level = LevelFactory.GetCarLevel(CarChoice.Level);
 
-               //var  branch = level.GetBranch(CarChoice.Branch);
-               //var m = branch.GetCarModel(CarChoice.Model);
+               var  branch = level.GetBranch(CarChoice.Branch);
+               var msg = branch.GetCarModel(CarChoice.Model);
 
-               // msg=  m.Describe();
+            this.txtDescribe.Text = msg.Describe();
 
 
-           MessageBox.Show("hi " + msg + " , " + CarChoice.Level + " "+CarChoice.Branch + " " +  CarChoice.Model );
+               
+
+         //  MessageBox.Show("hi " + Greeting + " , " + msg.Describe()); 
+            //MessageBox.Show("hi " + msg + " , " + CarChoice.Level + " "+CarChoice.Branch + " " +  CarChoice.Model );
 
         }
 
@@ -130,11 +133,6 @@ namespace VehicleManagement
             CarBrandinitialization();
         }
 
-        private void btnTest_Click(object sender, EventArgs e)
-        {
-          CarChoice = new ChoiceInfo(cbVehicleClass.Text.Trim(), cbCarBrand.Text, cbCarModel.Text);
-
-            new LuxuriousFactory().GetBranch("BMW");
-        }
+       
     }
 }

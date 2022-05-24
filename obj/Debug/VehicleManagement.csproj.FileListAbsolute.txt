@@ -25,7 +25,6 @@ C:\soonlim\VehicleManagement\bin\Debug\zh-Hans\Microsoft.QualityTools.Testing.Fa
 C:\soonlim\VehicleManagement\bin\Debug\zh-Hant\Microsoft.QualityTools.Testing.Fakes.resources.dll
 C:\soonlim\VehicleManagement\obj\Debug\VehicleManagement.csprojFakesResolveAssemblyReference.cache
 C:\soonlim\VehicleManagement\obj\Debug\VehicleManagement.csproj.AssemblyReference.cache
-C:\soonlim\VehicleManagement\bin\Debug\VehicleLogic.dll
 C:\soonlim\VehicleManagement\bin\Debug\VehicleLogic.pdb
 C:\soonlim\VehicleManagement\bin\Debug\VehicleLogic.1.0.0.0.Fakes.fakesconfig
 C:\soonlim\VehicleManagement\obj\Debug\Fakes\fakes.args
@@ -62,3 +61,4 @@ C:\soonlim\VehicleManagement\obj\Debug\Fakes\l\o\f.csproj.CoreCompileInputs.cach
 C:\soonlim\VehicleManagement\obj\Debug\Fakes\l\o\f.csproj.FileListAbsolute.txt
 C:\soonlim\VehicleManagement\obj\Debug\Fakes\l\o\VehicleLogic.1.0.0.0.Fakes.dll
 C:\soonlim\VehicleManagement\obj\Debug\Fakes\l\o\VehicleLogic.1.0.0.0.Fakes.pdb
+C:\soonlim\VehicleManagement\bin\Debug\VehicleLogic.dll
