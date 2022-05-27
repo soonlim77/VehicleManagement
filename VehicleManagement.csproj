@@ -135,6 +135,12 @@
     <Content Include="bin\Debug\Logic.pdb" />
     <Content Include="bin\Debug\VehicleManagement.exe" />
     <Content Include="bin\Debug\VehicleManagement.pdb" />
+    <Content Include="CarImages\Compact\Chevrolet\Focus.JPG" />
+    <Content Include="CarImages\Compact\Chevrolet\Grand.JPG" />
+    <Content Include="CarImages\Compact\Chevrolet\Impala.JPG" />
+    <Content Include="CarImages\Compact\Proton\Myvi.JPG" />
+    <Content Include="CarImages\Compact\Proton\Persona.JPG" />
+    <Content Include="CarImages\Compact\Proton\Saga.JPG" />
     <Content Include="CarImages\Economic\Honda\Accord.JPG" />
     <Content Include="CarImages\Economic\Honda\City.JPG" />
     <Content Include="CarImages\Economic\Honda\Civic.JPG" />
@@ -155,8 +161,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
-    <Folder Include="CarImages\Compact\Chevrolet\" />
-    <Folder Include="CarImages\Compact\Proton\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />

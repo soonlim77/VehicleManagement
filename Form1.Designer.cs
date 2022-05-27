@@ -142,10 +142,10 @@ namespace VehicleManagement
             // txtDescribe
             // 
             this.txtDescribe.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescribe.Location = new System.Drawing.Point(131, 196);
+            this.txtDescribe.Location = new System.Drawing.Point(145, 196);
             this.txtDescribe.Multiline = true;
             this.txtDescribe.Name = "txtDescribe";
-            this.txtDescribe.Size = new System.Drawing.Size(508, 30);
+            this.txtDescribe.Size = new System.Drawing.Size(494, 30);
             this.txtDescribe.TabIndex = 9;
             // 
             // pcCarImage
