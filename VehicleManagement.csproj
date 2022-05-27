@@ -74,8 +74,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="VehicleLogic, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="VehicleLogic">
       <HintPath>..\VehicleLogic\bin\Debug\VehicleLogic.dll</HintPath>
     </Reference>
   </ItemGroup>
@@ -136,10 +135,28 @@
     <Content Include="bin\Debug\Logic.pdb" />
     <Content Include="bin\Debug\VehicleManagement.exe" />
     <Content Include="bin\Debug\VehicleManagement.pdb" />
+    <Content Include="CarImages\Economic\Honda\Accord.JPG" />
+    <Content Include="CarImages\Economic\Honda\City.JPG" />
+    <Content Include="CarImages\Economic\Honda\Civic.JPG" />
+    <Content Include="CarImages\Economic\Mazda\M3.JPG" />
+    <Content Include="CarImages\Economic\Mazda\M6.JPG" />
+    <Content Include="CarImages\Economic\Toyota\Camry.JPG" />
+    <Content Include="CarImages\Economic\Toyota\Corolla.JPG" />
+    <Content Include="CarImages\Economic\Toyota\Vios.JPG" />
+    <Content Include="CarImages\Luxurious\Audi\QX3.JPG" />
+    <Content Include="CarImages\Luxurious\Audi\QX5.JPG" />
+    <Content Include="CarImages\Luxurious\Benz\C200.JPG" />
+    <Content Include="CarImages\Luxurious\Benz\E300.JPG" />
+    <Content Include="CarImages\Luxurious\Benz\S400.JPG" />
+    <Content Include="CarImages\Luxurious\BMW\X1.JPG" />
+    <Content Include="CarImages\Luxurious\BMW\X3.JPG" />
+    <Content Include="CarImages\Luxurious\BMW\X5.JPG" />
     <Content Include="Logo.ico" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
+    <Folder Include="CarImages\Compact\Chevrolet\" />
+    <Folder Include="CarImages\Compact\Proton\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />

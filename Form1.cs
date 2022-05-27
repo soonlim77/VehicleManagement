@@ -113,11 +113,14 @@ namespace VehicleManagement
                var msg = branch.GetCarModel(CarChoice.Model);
 
             this.txtDescribe.Text = msg.Describe();
+            var fp= msg.GetImagePath();
+            //this.pcCarImage.Image=Image.FromFile("C:\\soonlim\\VehicleManagement\\CarImages\\Luxurious\\BMW\\X1.JPG");
+            this.pcCarImage.Image = Image.FromFile(fp);
+            this.pcCarImage.SizeMode = PictureBoxSizeMode.StretchImage;
 
 
-               
 
-         //  MessageBox.Show("hi " + Greeting + " , " + msg.Describe()); 
+            //  MessageBox.Show("hi " + Greeting + " , " + msg.Describe()); 
             //MessageBox.Show("hi " + msg + " , " + CarChoice.Level + " "+CarChoice.Branch + " " +  CarChoice.Model );
 
         }

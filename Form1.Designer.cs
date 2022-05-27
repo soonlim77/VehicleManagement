@@ -39,8 +39,10 @@ namespace VehicleManagement
             this.btnDescribeMe = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtDescribe = new System.Windows.Forms.TextBox();
-            this.lblDescription = new System.Windows.Forms.Label();
+            this.pcCarImage = new System.Windows.Forms.PictureBox();
+            this.gbCarInfo = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcCarImage)).BeginInit();
             this.SuspendLayout();
             // 
             // lbLevel
@@ -113,7 +115,7 @@ namespace VehicleManagement
             // btnDescribeMe
             // 
             this.btnDescribeMe.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDescribeMe.Location = new System.Drawing.Point(318, 345);
+            this.btnDescribeMe.Location = new System.Drawing.Point(306, 459);
             this.btnDescribeMe.Name = "btnDescribeMe";
             this.btnDescribeMe.Size = new System.Drawing.Size(144, 34);
             this.btnDescribeMe.TabIndex = 6;
@@ -140,31 +142,40 @@ namespace VehicleManagement
             // txtDescribe
             // 
             this.txtDescribe.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescribe.Location = new System.Drawing.Point(122, 196);
+            this.txtDescribe.Location = new System.Drawing.Point(131, 196);
             this.txtDescribe.Multiline = true;
             this.txtDescribe.Name = "txtDescribe";
-            this.txtDescribe.Size = new System.Drawing.Size(563, 110);
+            this.txtDescribe.Size = new System.Drawing.Size(508, 30);
             this.txtDescribe.TabIndex = 9;
             // 
-            // lblDescription
+            // pcCarImage
             // 
-            this.lblDescription.AutoSize = true;
-            this.lblDescription.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescription.Location = new System.Drawing.Point(122, 162);
-            this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(128, 19);
-            this.lblDescription.TabIndex = 10;
-            this.lblDescription.Text = "Car Description";
+            this.pcCarImage.Location = new System.Drawing.Point(242, 267);
+            this.pcCarImage.Name = "pcCarImage";
+            this.pcCarImage.Size = new System.Drawing.Size(271, 140);
+            this.pcCarImage.TabIndex = 11;
+            this.pcCarImage.TabStop = false;
+            // 
+            // gbCarInfo
+            // 
+            this.gbCarInfo.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbCarInfo.Location = new System.Drawing.Point(110, 161);
+            this.gbCarInfo.Name = "gbCarInfo";
+            this.gbCarInfo.Size = new System.Drawing.Size(575, 282);
+            this.gbCarInfo.TabIndex = 12;
+            this.gbCarInfo.TabStop = false;
+            this.gbCarInfo.Text = "Vehicle Information";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(798, 410);
-            this.Controls.Add(this.lblDescription);
+            this.ClientSize = new System.Drawing.Size(798, 525);
             this.Controls.Add(this.txtDescribe);
+            this.Controls.Add(this.pcCarImage);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnDescribeMe);
+            this.Controls.Add(this.gbCarInfo);
             this.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -173,6 +184,7 @@ namespace VehicleManagement
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcCarImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -189,6 +201,7 @@ namespace VehicleManagement
         private System.Windows.Forms.Button btnDescribeMe;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtDescribe;
-        private System.Windows.Forms.Label lblDescription;
+        private System.Windows.Forms.PictureBox pcCarImage;
+        private System.Windows.Forms.GroupBox gbCarInfo;
     }
 }
