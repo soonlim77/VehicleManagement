@@ -16,8 +16,8 @@
         <member name="T:VehicleLogic.Factory.Fakes.ShimCompactFactory.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Factory.Fakes.ShimCompactFactory.AllInstances.GetBranchString">
-            <summary>Sets the Shim of CompactFactory.GetBranch(String level)</summary>
+        <member name="P:VehicleLogic.Factory.Fakes.ShimCompactFactory.AllInstances.GetBranchCarChoiceInfo">
+            <summary>Sets the Shim of CompactFactory.GetBranch(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="M:VehicleLogic.Factory.Fakes.ShimCompactFactory.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
@@ -34,8 +34,8 @@
         <member name="P:VehicleLogic.Factory.Fakes.ShimCompactFactory.Constructor">
             <summary>Sets the Shim of CompactFactory.CompactFactory()</summary>
         </member>
-        <member name="P:VehicleLogic.Factory.Fakes.ShimCompactFactory.GetBranchString">
-            <summary>Sets the Shim of CompactFactory.GetBranch(String level)</summary>
+        <member name="P:VehicleLogic.Factory.Fakes.ShimCompactFactory.GetBranchCarChoiceInfo">
+            <summary>Sets the Shim of CompactFactory.GetBranch(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="T:VehicleLogic.Factory.Fakes.ShimEconFactory">
             <summary>Shim type of VehicleLogic.Factory.EconFactory</summary>
@@ -49,8 +49,8 @@
         <member name="T:VehicleLogic.Factory.Fakes.ShimEconFactory.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Factory.Fakes.ShimEconFactory.AllInstances.GetBranchString">
-            <summary>Sets the Shim of EconFactory.GetBranch(String level)</summary>
+        <member name="P:VehicleLogic.Factory.Fakes.ShimEconFactory.AllInstances.GetBranchCarChoiceInfo">
+            <summary>Sets the Shim of EconFactory.GetBranch(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="M:VehicleLogic.Factory.Fakes.ShimEconFactory.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
@@ -67,8 +67,8 @@
         <member name="P:VehicleLogic.Factory.Fakes.ShimEconFactory.Constructor">
             <summary>Sets the Shim of EconFactory.EconFactory()</summary>
         </member>
-        <member name="P:VehicleLogic.Factory.Fakes.ShimEconFactory.GetBranchString">
-            <summary>Sets the Shim of EconFactory.GetBranch(String level)</summary>
+        <member name="P:VehicleLogic.Factory.Fakes.ShimEconFactory.GetBranchCarChoiceInfo">
+            <summary>Sets the Shim of EconFactory.GetBranch(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="T:VehicleLogic.Factory.Fakes.ShimLuxuriousFactory">
             <summary>Shim type of VehicleLogic.Factory.LuxuriousFactory</summary>
@@ -82,8 +82,8 @@
         <member name="T:VehicleLogic.Factory.Fakes.ShimLuxuriousFactory.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Factory.Fakes.ShimLuxuriousFactory.AllInstances.GetBranchString">
-            <summary>Sets the Shim of LuxuriousFactory.GetBranch(String level)</summary>
+        <member name="P:VehicleLogic.Factory.Fakes.ShimLuxuriousFactory.AllInstances.GetBranchCarChoiceInfo">
+            <summary>Sets the Shim of LuxuriousFactory.GetBranch(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="M:VehicleLogic.Factory.Fakes.ShimLuxuriousFactory.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
@@ -100,8 +100,8 @@
         <member name="P:VehicleLogic.Factory.Fakes.ShimLuxuriousFactory.Constructor">
             <summary>Sets the Shim of LuxuriousFactory.LuxuriousFactory()</summary>
         </member>
-        <member name="P:VehicleLogic.Factory.Fakes.ShimLuxuriousFactory.GetBranchString">
-            <summary>Sets the Shim of LuxuriousFactory.GetBranch(String level)</summary>
+        <member name="P:VehicleLogic.Factory.Fakes.ShimLuxuriousFactory.GetBranchCarChoiceInfo">
+            <summary>Sets the Shim of LuxuriousFactory.GetBranch(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="T:VehicleLogic.Factory.Fakes.StubCompactFactory">
             <summary>Stub type of VehicleLogic.Factory.CompactFactory</summary>
@@ -145,11 +145,11 @@
         <member name="M:VehicleLogic.Factory.Fakes.StubIVehicleFactory.#ctor">
             <summary>Initializes a new instance of type StubIVehicleFactory</summary>
         </member>
-        <member name="F:VehicleLogic.Factory.Fakes.StubIVehicleFactory.GetBranchString">
-            <summary>Sets the stub of IVehicleFactory.GetBranch(String level)</summary>
+        <member name="F:VehicleLogic.Factory.Fakes.StubIVehicleFactory.GetBranchCarChoiceInfo">
+            <summary>Sets the stub of IVehicleFactory.GetBranch(CarChoiceInfo facInfo)</summary>
         </member>
-        <member name="M:VehicleLogic.Factory.Fakes.StubIVehicleFactory.VehicleLogic#Factory#IVehicleFactory#GetBranch(System.String)">
-            <summary>Sets the Stub of IVehicleFactory.GetBranch(String level)</summary>
+        <member name="M:VehicleLogic.Factory.Fakes.StubIVehicleFactory.VehicleLogic#Factory#IVehicleFactory#GetBranch(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of IVehicleFactory.GetBranch(CarChoiceInfo facInfo)</summary>
         </member>
         <member name="T:VehicleLogic.Factory.Fakes.StubLuxuriousFactory">
             <summary>Stub type of VehicleLogic.Factory.LuxuriousFactory</summary>
@@ -168,6 +168,72 @@
         </member>
         <member name="P:VehicleLogic.Factory.Fakes.StubLuxuriousFactory.InstanceObserver">
             <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:VehicleLogic.Fakes.ShimCarChoiceInfo">
+            <summary>Shim type of VehicleLogic.CarChoiceInfo</summary>
+        </member>
+        <member name="M:VehicleLogic.Fakes.ShimCarChoiceInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:VehicleLogic.Fakes.ShimCarChoiceInfo.#ctor(VehicleLogic.CarChoiceInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:VehicleLogic.Fakes.ShimCarChoiceInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.AllInstances.BranchGet">
+            <summary>Sets the Shim of CarChoiceInfo.get_Branch()</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.AllInstances.BranchSetString">
+            <summary>Sets the Shim of CarChoiceInfo.set_Branch(String value)</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.AllInstances.CarFactoryChoiceCarChoiceInfo">
+            <summary>Sets the Shim of CarChoiceInfo.CarFactoryChoice(CarChoiceInfo facobj)</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.AllInstances.LevelGet">
+            <summary>Sets the Shim of CarChoiceInfo.get_Level()</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.AllInstances.LevelSetString">
+            <summary>Sets the Shim of CarChoiceInfo.set_Level(String value)</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.AllInstances.ModelGet">
+            <summary>Sets the Shim of CarChoiceInfo.get_Model()</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.AllInstances.ModelSetString">
+            <summary>Sets the Shim of CarChoiceInfo.set_Model(String value)</summary>
+        </member>
+        <member name="M:VehicleLogic.Fakes.ShimCarChoiceInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:VehicleLogic.Fakes.ShimCarChoiceInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.BranchGet">
+            <summary>Sets the Shim of CarChoiceInfo.get_Branch()</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.BranchSetString">
+            <summary>Sets the Shim of CarChoiceInfo.set_Branch(String value)</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.CarFactoryChoiceCarChoiceInfo">
+            <summary>Sets the Shim of CarChoiceInfo.CarFactoryChoice(CarChoiceInfo facobj)</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.ConstructorStringStringStringCarColor">
+            <summary>Sets the Shim of CarChoiceInfo.CarChoiceInfo(String L, String B, String M, CarColor C)</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.LevelGet">
+            <summary>Sets the Shim of CarChoiceInfo.get_Level()</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.LevelSetString">
+            <summary>Sets the Shim of CarChoiceInfo.set_Level(String value)</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.ModelGet">
+            <summary>Sets the Shim of CarChoiceInfo.get_Model()</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.ShimCarChoiceInfo.ModelSetString">
+            <summary>Sets the Shim of CarChoiceInfo.set_Model(String value)</summary>
         </member>
         <member name="T:VehicleLogic.Fakes.ShimImageHelper">
             <summary>Shim type of VehicleLogic.ImageHelper</summary>
@@ -211,8 +277,26 @@
         <member name="P:VehicleLogic.Fakes.ShimLevelFactory.Constructor">
             <summary>Sets the Shim of LevelFactory.LevelFactory()</summary>
         </member>
-        <member name="P:VehicleLogic.Fakes.ShimLevelFactory.GetCarLevelString">
-            <summary>Sets the Shim of LevelFactory.GetCarLevel(String level)</summary>
+        <member name="P:VehicleLogic.Fakes.ShimLevelFactory.GetCarLevelCarChoiceInfo">
+            <summary>Sets the Shim of LevelFactory.GetCarLevel(CarChoiceInfo CarInfo)</summary>
+        </member>
+        <member name="T:VehicleLogic.Fakes.StubCarChoiceInfo">
+            <summary>Stub type of VehicleLogic.CarChoiceInfo</summary>
+        </member>
+        <member name="M:VehicleLogic.Fakes.StubCarChoiceInfo.#ctor(System.String,System.String,System.String,VehicleLogic.Enum.CarColor)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.StubCarChoiceInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:VehicleLogic.Fakes.StubCarChoiceInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubCarChoiceInfo</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.StubCarChoiceInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:VehicleLogic.Fakes.StubCarChoiceInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
         </member>
         <member name="T:VehicleLogic.Fakes.StubLevelFactory">
             <summary>Stub type of VehicleLogic.LevelFactory</summary>
@@ -244,8 +328,8 @@
         <member name="T:VehicleLogic.Model.Car.Compact.Fakes.ShimFocus.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimFocus.AllInstances.Describe">
-            <summary>Sets the Shim of Focus.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimFocus.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Focus.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimFocus.AllInstances.GetImagePath">
             <summary>Sets the Shim of Focus.GetImagePath()</summary>
@@ -265,8 +349,8 @@
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimFocus.Constructor">
             <summary>Sets the Shim of Focus.Focus()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimFocus.Describe">
-            <summary>Sets the Shim of Focus.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimFocus.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Focus.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimFocus.GetImagePath">
             <summary>Sets the Shim of Focus.GetImagePath()</summary>
@@ -283,8 +367,8 @@
         <member name="T:VehicleLogic.Model.Car.Compact.Fakes.ShimGrand.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimGrand.AllInstances.Describe">
-            <summary>Sets the Shim of Grand.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimGrand.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Grand.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimGrand.AllInstances.GetImagePath">
             <summary>Sets the Shim of Grand.GetImagePath()</summary>
@@ -304,8 +388,8 @@
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimGrand.Constructor">
             <summary>Sets the Shim of Grand.Grand()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimGrand.Describe">
-            <summary>Sets the Shim of Grand.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimGrand.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Grand.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimGrand.GetImagePath">
             <summary>Sets the Shim of Grand.GetImagePath()</summary>
@@ -322,8 +406,8 @@
         <member name="T:VehicleLogic.Model.Car.Compact.Fakes.ShimImpala.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimImpala.AllInstances.Describe">
-            <summary>Sets the Shim of Impala.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimImpala.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Impala.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimImpala.AllInstances.GetImagePath">
             <summary>Sets the Shim of Impala.GetImagePath()</summary>
@@ -343,8 +427,8 @@
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimImpala.Constructor">
             <summary>Sets the Shim of Impala.Impala()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimImpala.Describe">
-            <summary>Sets the Shim of Impala.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimImpala.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Impala.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimImpala.GetImagePath">
             <summary>Sets the Shim of Impala.GetImagePath()</summary>
@@ -361,8 +445,8 @@
         <member name="T:VehicleLogic.Model.Car.Compact.Fakes.ShimMyvi.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimMyvi.AllInstances.Describe">
-            <summary>Sets the Shim of Myvi.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimMyvi.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Myvi.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimMyvi.AllInstances.GetImagePath">
             <summary>Sets the Shim of Myvi.GetImagePath()</summary>
@@ -382,8 +466,8 @@
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimMyvi.Constructor">
             <summary>Sets the Shim of Myvi.Myvi()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimMyvi.Describe">
-            <summary>Sets the Shim of Myvi.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimMyvi.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Myvi.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimMyvi.GetImagePath">
             <summary>Sets the Shim of Myvi.GetImagePath()</summary>
@@ -400,8 +484,8 @@
         <member name="T:VehicleLogic.Model.Car.Compact.Fakes.ShimPersona.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimPersona.AllInstances.Describe">
-            <summary>Sets the Shim of Persona.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimPersona.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Persona.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimPersona.AllInstances.GetImagePath">
             <summary>Sets the Shim of Persona.GetImagePath()</summary>
@@ -421,8 +505,8 @@
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimPersona.Constructor">
             <summary>Sets the Shim of Persona.Persona()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimPersona.Describe">
-            <summary>Sets the Shim of Persona.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimPersona.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Persona.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimPersona.GetImagePath">
             <summary>Sets the Shim of Persona.GetImagePath()</summary>
@@ -439,8 +523,8 @@
         <member name="T:VehicleLogic.Model.Car.Compact.Fakes.ShimSaga.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimSaga.AllInstances.Describe">
-            <summary>Sets the Shim of Saga.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimSaga.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Saga.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimSaga.AllInstances.GetImagePath">
             <summary>Sets the Shim of Saga.GetImagePath()</summary>
@@ -460,8 +544,8 @@
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimSaga.Constructor">
             <summary>Sets the Shim of Saga.Saga()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimSaga.Describe">
-            <summary>Sets the Shim of Saga.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimSaga.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Saga.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.ShimSaga.GetImagePath">
             <summary>Sets the Shim of Saga.GetImagePath()</summary>
@@ -475,11 +559,11 @@
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.StubFocus.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubFocus.Describe">
-            <summary>Sets the Stub of Focus.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubFocus.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of Focus.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Compact.Fakes.StubFocus.Describe01">
-            <summary>Sets the stub of Focus.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Compact.Fakes.StubFocus.DescribeCarChoiceInfo">
+            <summary>Sets the stub of Focus.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubFocus.GetImagePath">
             <summary>Sets the Stub of Focus.GetImagePath()</summary>
@@ -505,11 +589,11 @@
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.StubGrand.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubGrand.Describe">
-            <summary>Sets the Stub of Grand.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubGrand.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of Grand.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Compact.Fakes.StubGrand.Describe01">
-            <summary>Sets the stub of Grand.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Compact.Fakes.StubGrand.DescribeCarChoiceInfo">
+            <summary>Sets the stub of Grand.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubGrand.GetImagePath">
             <summary>Sets the Stub of Grand.GetImagePath()</summary>
@@ -535,11 +619,11 @@
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.StubImpala.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubImpala.Describe">
-            <summary>Sets the Stub of Impala.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubImpala.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of Impala.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Compact.Fakes.StubImpala.Describe01">
-            <summary>Sets the stub of Impala.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Compact.Fakes.StubImpala.DescribeCarChoiceInfo">
+            <summary>Sets the stub of Impala.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubImpala.GetImagePath">
             <summary>Sets the Stub of Impala.GetImagePath()</summary>
@@ -565,11 +649,11 @@
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.StubMyvi.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubMyvi.Describe">
-            <summary>Sets the Stub of Myvi.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubMyvi.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of Myvi.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Compact.Fakes.StubMyvi.Describe01">
-            <summary>Sets the stub of Myvi.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Compact.Fakes.StubMyvi.DescribeCarChoiceInfo">
+            <summary>Sets the stub of Myvi.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubMyvi.GetImagePath">
             <summary>Sets the Stub of Myvi.GetImagePath()</summary>
@@ -595,11 +679,11 @@
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.StubPersona.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubPersona.Describe">
-            <summary>Sets the Stub of Persona.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubPersona.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of Persona.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Compact.Fakes.StubPersona.Describe01">
-            <summary>Sets the stub of Persona.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Compact.Fakes.StubPersona.DescribeCarChoiceInfo">
+            <summary>Sets the stub of Persona.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubPersona.GetImagePath">
             <summary>Sets the Stub of Persona.GetImagePath()</summary>
@@ -625,11 +709,11 @@
         <member name="P:VehicleLogic.Model.Car.Compact.Fakes.StubSaga.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubSaga.Describe">
-            <summary>Sets the Stub of Saga.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubSaga.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of Saga.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Compact.Fakes.StubSaga.Describe01">
-            <summary>Sets the stub of Saga.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Compact.Fakes.StubSaga.DescribeCarChoiceInfo">
+            <summary>Sets the stub of Saga.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Compact.Fakes.StubSaga.GetImagePath">
             <summary>Sets the Stub of Saga.GetImagePath()</summary>
@@ -658,8 +742,8 @@
         <member name="T:VehicleLogic.Model.Car.Econ.Fakes.ShimAccord.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimAccord.AllInstances.Describe">
-            <summary>Sets the Shim of Accord.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimAccord.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Accord.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimAccord.AllInstances.GetImagePath">
             <summary>Sets the Shim of Accord.GetImagePath()</summary>
@@ -679,8 +763,11 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimAccord.Constructor">
             <summary>Sets the Shim of Accord.Accord()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimAccord.Describe">
-            <summary>Sets the Shim of Accord.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimAccord.ConstructorCarColor">
+            <summary>Sets the Shim of Accord.Accord(CarColor c)</summary>
+        </member>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimAccord.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Accord.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimAccord.GetImagePath">
             <summary>Sets the Shim of Accord.GetImagePath()</summary>
@@ -697,8 +784,8 @@
         <member name="T:VehicleLogic.Model.Car.Econ.Fakes.ShimCamry.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCamry.AllInstances.Describe">
-            <summary>Sets the Shim of Camry.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCamry.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Camry.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCamry.AllInstances.GetImagePath">
             <summary>Sets the Shim of Camry.GetImagePath()</summary>
@@ -718,8 +805,8 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCamry.Constructor">
             <summary>Sets the Shim of Camry.Camry()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCamry.Describe">
-            <summary>Sets the Shim of Camry.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCamry.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Camry.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCamry.GetImagePath">
             <summary>Sets the Shim of Camry.GetImagePath()</summary>
@@ -736,8 +823,8 @@
         <member name="T:VehicleLogic.Model.Car.Econ.Fakes.ShimCity.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCity.AllInstances.Describe">
-            <summary>Sets the Shim of City.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCity.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of City.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCity.AllInstances.GetImagePath">
             <summary>Sets the Shim of City.GetImagePath()</summary>
@@ -757,8 +844,8 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCity.Constructor">
             <summary>Sets the Shim of City.City()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCity.Describe">
-            <summary>Sets the Shim of City.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCity.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of City.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCity.GetImagePath">
             <summary>Sets the Shim of City.GetImagePath()</summary>
@@ -775,8 +862,8 @@
         <member name="T:VehicleLogic.Model.Car.Econ.Fakes.ShimCivic.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCivic.AllInstances.Describe">
-            <summary>Sets the Shim of Civic.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCivic.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Civic.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCivic.AllInstances.GetImagePath">
             <summary>Sets the Shim of Civic.GetImagePath()</summary>
@@ -796,8 +883,8 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCivic.Constructor">
             <summary>Sets the Shim of Civic.Civic()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCivic.Describe">
-            <summary>Sets the Shim of Civic.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCivic.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Civic.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCivic.GetImagePath">
             <summary>Sets the Shim of Civic.GetImagePath()</summary>
@@ -814,8 +901,8 @@
         <member name="T:VehicleLogic.Model.Car.Econ.Fakes.ShimCorolla.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCorolla.AllInstances.Describe">
-            <summary>Sets the Shim of Corolla.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCorolla.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Corolla.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCorolla.AllInstances.GetImagePath">
             <summary>Sets the Shim of Corolla.GetImagePath()</summary>
@@ -835,8 +922,8 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCorolla.Constructor">
             <summary>Sets the Shim of Corolla.Corolla()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCorolla.Describe">
-            <summary>Sets the Shim of Corolla.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCorolla.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of Corolla.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimCorolla.GetImagePath">
             <summary>Sets the Shim of Corolla.GetImagePath()</summary>
@@ -853,8 +940,8 @@
         <member name="T:VehicleLogic.Model.Car.Econ.Fakes.ShimM3.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM3.AllInstances.Describe">
-            <summary>Sets the Shim of M3.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM3.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of M3.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM3.AllInstances.GetImagePath">
             <summary>Sets the Shim of M3.GetImagePath()</summary>
@@ -874,8 +961,8 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM3.Constructor">
             <summary>Sets the Shim of M3.M3()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM3.Describe">
-            <summary>Sets the Shim of M3.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM3.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of M3.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM3.GetImagePath">
             <summary>Sets the Shim of M3.GetImagePath()</summary>
@@ -892,8 +979,8 @@
         <member name="T:VehicleLogic.Model.Car.Econ.Fakes.ShimM6.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM6.AllInstances.Describe">
-            <summary>Sets the Shim of M6.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM6.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of M6.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM6.AllInstances.GetImagePath">
             <summary>Sets the Shim of M6.GetImagePath()</summary>
@@ -913,8 +1000,8 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM6.Constructor">
             <summary>Sets the Shim of M6.M6()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM6.Describe">
-            <summary>Sets the Shim of M6.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM6.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of M6.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.ShimM6.GetImagePath">
             <summary>Sets the Shim of M6.GetImagePath()</summary>
@@ -925,14 +1012,17 @@
         <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubAccord.#ctor">
             <summary>Initializes a new instance</summary>
         </member>
+        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubAccord.#ctor(VehicleLogic.Model.Car.CarColor)">
+            <summary>Initializes a new instance</summary>
+        </member>
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.StubAccord.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubAccord.Describe">
-            <summary>Sets the Stub of Accord.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubAccord.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of Accord.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubAccord.Describe01">
-            <summary>Sets the stub of Accord.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubAccord.DescribeCarChoiceInfo">
+            <summary>Sets the stub of Accord.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubAccord.GetImagePath">
             <summary>Sets the Stub of Accord.GetImagePath()</summary>
@@ -958,11 +1048,11 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.StubCamry.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubCamry.Describe">
-            <summary>Sets the Stub of Camry.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubCamry.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of Camry.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubCamry.Describe01">
-            <summary>Sets the stub of Camry.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubCamry.DescribeCarChoiceInfo">
+            <summary>Sets the stub of Camry.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubCamry.GetImagePath">
             <summary>Sets the Stub of Camry.GetImagePath()</summary>
@@ -988,11 +1078,11 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.StubCity.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubCity.Describe">
-            <summary>Sets the Stub of City.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubCity.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of City.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubCity.Describe01">
-            <summary>Sets the stub of City.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubCity.DescribeCarChoiceInfo">
+            <summary>Sets the stub of City.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubCity.GetImagePath">
             <summary>Sets the Stub of City.GetImagePath()</summary>
@@ -1018,11 +1108,11 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.StubCivic.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubCivic.Describe">
-            <summary>Sets the Stub of Civic.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubCivic.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of Civic.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubCivic.Describe01">
-            <summary>Sets the stub of Civic.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubCivic.DescribeCarChoiceInfo">
+            <summary>Sets the stub of Civic.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubCivic.GetImagePath">
             <summary>Sets the Stub of Civic.GetImagePath()</summary>
@@ -1048,11 +1138,11 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.StubCorolla.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubCorolla.Describe">
-            <summary>Sets the Stub of Corolla.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubCorolla.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of Corolla.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubCorolla.Describe01">
-            <summary>Sets the stub of Corolla.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubCorolla.DescribeCarChoiceInfo">
+            <summary>Sets the stub of Corolla.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubCorolla.GetImagePath">
             <summary>Sets the Stub of Corolla.GetImagePath()</summary>
@@ -1078,11 +1168,11 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.StubM3.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubM3.Describe">
-            <summary>Sets the Stub of M3.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubM3.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of M3.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubM3.Describe01">
-            <summary>Sets the stub of M3.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubM3.DescribeCarChoiceInfo">
+            <summary>Sets the stub of M3.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubM3.GetImagePath">
             <summary>Sets the Stub of M3.GetImagePath()</summary>
@@ -1108,11 +1198,11 @@
         <member name="P:VehicleLogic.Model.Car.Econ.Fakes.StubM6.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubM6.Describe">
-            <summary>Sets the Stub of M6.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubM6.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of M6.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubM6.Describe01">
-            <summary>Sets the stub of M6.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Econ.Fakes.StubM6.DescribeCarChoiceInfo">
+            <summary>Sets the stub of M6.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Econ.Fakes.StubM6.GetImagePath">
             <summary>Sets the Stub of M6.GetImagePath()</summary>
@@ -1210,11 +1300,11 @@
         <member name="P:VehicleLogic.Model.Car.Fakes.StubCompactCar.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Fakes.StubCompactCar.Describe">
-            <summary>Sets the Stub of CompactCar.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Fakes.StubCompactCar.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of CompactCar.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Fakes.StubCompactCar.Describe01">
-            <summary>Sets the stub of CompactCar.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Fakes.StubCompactCar.DescribeCarChoiceInfo">
+            <summary>Sets the stub of CompactCar.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Fakes.StubCompactCar.GetImagePath">
             <summary>Sets the Stub of CompactCar.GetImagePath()</summary>
@@ -1240,11 +1330,11 @@
         <member name="P:VehicleLogic.Model.Car.Fakes.StubEconCar.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Fakes.StubEconCar.Describe">
-            <summary>Sets the Stub of EconCar.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Fakes.StubEconCar.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of EconCar.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Fakes.StubEconCar.Describe01">
-            <summary>Sets the stub of EconCar.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Fakes.StubEconCar.DescribeCarChoiceInfo">
+            <summary>Sets the stub of EconCar.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Fakes.StubEconCar.GetImagePath">
             <summary>Sets the Stub of EconCar.GetImagePath()</summary>
@@ -1267,14 +1357,14 @@
         <member name="M:VehicleLogic.Model.Car.Fakes.StubICar.#ctor">
             <summary>Initializes a new instance of type StubICar</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Fakes.StubICar.Describe">
-            <summary>Sets the stub of ICar.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Fakes.StubICar.DescribeCarChoiceInfo">
+            <summary>Sets the stub of ICar.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="F:VehicleLogic.Model.Car.Fakes.StubICar.GetImagePath">
             <summary>Sets the stub of ICar.GetImagePath()</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Fakes.StubICar.VehicleLogic#Model#Car#ICar#Describe">
-            <summary>Sets the Stub of ICar.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Fakes.StubICar.VehicleLogic#Model#Car#ICar#Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of ICar.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Fakes.StubICar.VehicleLogic#Model#Car#ICar#GetImagePath">
             <summary>Sets the Stub of ICar.GetImagePath()</summary>
@@ -1288,11 +1378,11 @@
         <member name="P:VehicleLogic.Model.Car.Fakes.StubLuxuriousCar.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Fakes.StubLuxuriousCar.Describe">
-            <summary>Sets the Stub of LuxuriousCar.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Fakes.StubLuxuriousCar.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of LuxuriousCar.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Fakes.StubLuxuriousCar.Describe01">
-            <summary>Sets the stub of LuxuriousCar.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Fakes.StubLuxuriousCar.DescribeCarChoiceInfo">
+            <summary>Sets the stub of LuxuriousCar.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Fakes.StubLuxuriousCar.GetImagePath">
             <summary>Sets the Stub of LuxuriousCar.GetImagePath()</summary>
@@ -1321,8 +1411,8 @@
         <member name="T:VehicleLogic.Model.Car.Lux.Fakes.ShimC200.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimC200.AllInstances.Describe">
-            <summary>Sets the Shim of C200.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimC200.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of C200.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimC200.AllInstances.GetImagePath">
             <summary>Sets the Shim of C200.GetImagePath()</summary>
@@ -1342,8 +1432,8 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimC200.Constructor">
             <summary>Sets the Shim of C200.C200()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimC200.Describe">
-            <summary>Sets the Shim of C200.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimC200.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of C200.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimC200.GetImagePath">
             <summary>Sets the Shim of C200.GetImagePath()</summary>
@@ -1360,8 +1450,8 @@
         <member name="T:VehicleLogic.Model.Car.Lux.Fakes.ShimE300.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimE300.AllInstances.Describe">
-            <summary>Sets the Shim of E300.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimE300.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of E300.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimE300.AllInstances.GetImagePath">
             <summary>Sets the Shim of E300.GetImagePath()</summary>
@@ -1381,8 +1471,8 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimE300.Constructor">
             <summary>Sets the Shim of E300.E300()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimE300.Describe">
-            <summary>Sets the Shim of E300.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimE300.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of E300.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimE300.GetImagePath">
             <summary>Sets the Shim of E300.GetImagePath()</summary>
@@ -1399,8 +1489,8 @@
         <member name="T:VehicleLogic.Model.Car.Lux.Fakes.ShimQX3.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX3.AllInstances.Describe">
-            <summary>Sets the Shim of QX3.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX3.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of QX3.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX3.AllInstances.GetImagePath">
             <summary>Sets the Shim of QX3.GetImagePath()</summary>
@@ -1420,8 +1510,8 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX3.Constructor">
             <summary>Sets the Shim of QX3.QX3()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX3.Describe">
-            <summary>Sets the Shim of QX3.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX3.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of QX3.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX3.GetImagePath">
             <summary>Sets the Shim of QX3.GetImagePath()</summary>
@@ -1438,8 +1528,8 @@
         <member name="T:VehicleLogic.Model.Car.Lux.Fakes.ShimQX5.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX5.AllInstances.Describe">
-            <summary>Sets the Shim of QX5.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX5.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of QX5.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX5.AllInstances.GetImagePath">
             <summary>Sets the Shim of QX5.GetImagePath()</summary>
@@ -1459,8 +1549,8 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX5.Constructor">
             <summary>Sets the Shim of QX5.QX5()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX5.Describe">
-            <summary>Sets the Shim of QX5.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX5.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of QX5.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimQX5.GetImagePath">
             <summary>Sets the Shim of QX5.GetImagePath()</summary>
@@ -1477,8 +1567,8 @@
         <member name="T:VehicleLogic.Model.Car.Lux.Fakes.ShimS400.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimS400.AllInstances.Describe">
-            <summary>Sets the Shim of S400.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimS400.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of S400.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimS400.AllInstances.GetImagePath">
             <summary>Sets the Shim of S400.GetImagePath()</summary>
@@ -1498,8 +1588,8 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimS400.Constructor">
             <summary>Sets the Shim of S400.S400()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimS400.Describe">
-            <summary>Sets the Shim of S400.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimS400.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of S400.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimS400.GetImagePath">
             <summary>Sets the Shim of S400.GetImagePath()</summary>
@@ -1516,8 +1606,8 @@
         <member name="T:VehicleLogic.Model.Car.Lux.Fakes.ShimX1.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX1.AllInstances.Describe">
-            <summary>Sets the Shim of X1.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX1.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of X1.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX1.AllInstances.GetImagePath">
             <summary>Sets the Shim of X1.GetImagePath()</summary>
@@ -1537,8 +1627,8 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX1.Constructor">
             <summary>Sets the Shim of X1.X1()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX1.Describe">
-            <summary>Sets the Shim of X1.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX1.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of X1.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX1.GetImagePath">
             <summary>Sets the Shim of X1.GetImagePath()</summary>
@@ -1555,8 +1645,8 @@
         <member name="T:VehicleLogic.Model.Car.Lux.Fakes.ShimX3.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX3.AllInstances.Describe">
-            <summary>Sets the Shim of X3.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX3.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of X3.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX3.AllInstances.GetImagePath">
             <summary>Sets the Shim of X3.GetImagePath()</summary>
@@ -1576,8 +1666,8 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX3.Constructor">
             <summary>Sets the Shim of X3.X3()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX3.Describe">
-            <summary>Sets the Shim of X3.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX3.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of X3.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX3.GetImagePath">
             <summary>Sets the Shim of X3.GetImagePath()</summary>
@@ -1594,8 +1684,8 @@
         <member name="T:VehicleLogic.Model.Car.Lux.Fakes.ShimX5.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX5.AllInstances.Describe">
-            <summary>Sets the Shim of X5.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX5.AllInstances.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of X5.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX5.AllInstances.GetImagePath">
             <summary>Sets the Shim of X5.GetImagePath()</summary>
@@ -1615,8 +1705,8 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX5.Constructor">
             <summary>Sets the Shim of X5.X5()</summary>
         </member>
-        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX5.Describe">
-            <summary>Sets the Shim of X5.Describe()</summary>
+        <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX5.DescribeCarChoiceInfo">
+            <summary>Sets the Shim of X5.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.ShimX5.GetImagePath">
             <summary>Sets the Shim of X5.GetImagePath()</summary>
@@ -1630,11 +1720,11 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.StubC200.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubC200.Describe">
-            <summary>Sets the Stub of C200.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubC200.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of C200.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubC200.Describe01">
-            <summary>Sets the stub of C200.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubC200.DescribeCarChoiceInfo">
+            <summary>Sets the stub of C200.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubC200.GetImagePath">
             <summary>Sets the Stub of C200.GetImagePath()</summary>
@@ -1660,11 +1750,11 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.StubE300.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubE300.Describe">
-            <summary>Sets the Stub of E300.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubE300.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of E300.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubE300.Describe01">
-            <summary>Sets the stub of E300.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubE300.DescribeCarChoiceInfo">
+            <summary>Sets the stub of E300.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubE300.GetImagePath">
             <summary>Sets the Stub of E300.GetImagePath()</summary>
@@ -1690,11 +1780,11 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.StubQX3.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubQX3.Describe">
-            <summary>Sets the Stub of QX3.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubQX3.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of QX3.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubQX3.Describe01">
-            <summary>Sets the stub of QX3.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubQX3.DescribeCarChoiceInfo">
+            <summary>Sets the stub of QX3.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubQX3.GetImagePath">
             <summary>Sets the Stub of QX3.GetImagePath()</summary>
@@ -1720,11 +1810,11 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.StubQX5.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubQX5.Describe">
-            <summary>Sets the Stub of QX5.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubQX5.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of QX5.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubQX5.Describe01">
-            <summary>Sets the stub of QX5.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubQX5.DescribeCarChoiceInfo">
+            <summary>Sets the stub of QX5.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubQX5.GetImagePath">
             <summary>Sets the Stub of QX5.GetImagePath()</summary>
@@ -1750,11 +1840,11 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.StubS400.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubS400.Describe">
-            <summary>Sets the Stub of S400.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubS400.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of S400.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubS400.Describe01">
-            <summary>Sets the stub of S400.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubS400.DescribeCarChoiceInfo">
+            <summary>Sets the stub of S400.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubS400.GetImagePath">
             <summary>Sets the Stub of S400.GetImagePath()</summary>
@@ -1780,11 +1870,11 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.StubX1.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubX1.Describe">
-            <summary>Sets the Stub of X1.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubX1.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of X1.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubX1.Describe01">
-            <summary>Sets the stub of X1.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubX1.DescribeCarChoiceInfo">
+            <summary>Sets the stub of X1.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubX1.GetImagePath">
             <summary>Sets the Stub of X1.GetImagePath()</summary>
@@ -1810,11 +1900,11 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.StubX3.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubX3.Describe">
-            <summary>Sets the Stub of X3.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubX3.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of X3.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubX3.Describe01">
-            <summary>Sets the stub of X3.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubX3.DescribeCarChoiceInfo">
+            <summary>Sets the stub of X3.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubX3.GetImagePath">
             <summary>Sets the Stub of X3.GetImagePath()</summary>
@@ -1840,11 +1930,11 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.StubX5.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
-        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubX5.Describe">
-            <summary>Sets the Stub of X5.Describe()</summary>
+        <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubX5.Describe(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of X5.Describe(CarChoiceInfo info)</summary>
         </member>
-        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubX5.Describe01">
-            <summary>Sets the stub of X5.Describe()</summary>
+        <member name="F:VehicleLogic.Model.Car.Lux.Fakes.StubX5.DescribeCarChoiceInfo">
+            <summary>Sets the stub of X5.Describe(CarChoiceInfo info)</summary>
         </member>
         <member name="M:VehicleLogic.Model.Car.Lux.Fakes.StubX5.GetImagePath">
             <summary>Sets the Stub of X5.GetImagePath()</summary>
@@ -1861,348 +1951,6 @@
         <member name="P:VehicleLogic.Model.Car.Lux.Fakes.StubX5.InstanceObserver">
             <summary>Gets or sets the instance observer.</summary>
         </member>
-        <member name="T:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV">
-            <summary>Shim type of VehicleLogic.Model.SUV.AbsSUV</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV.#ctor(VehicleLogic.Model.SUV.AbsSUV)">
-            <summary>Initializes a new shim for the given instance</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV.AllInstances">
-            <summary>Define shims for all instances members</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV.AllInstances.Greeting">
-            <summary>Sets the Shim of AbsSUV.Greeting()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV.AllInstances.MyPropertyGet">
-            <summary>Sets the Shim of AbsSUV.get_MyProperty()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV.AllInstances.MyPropertySetCarColor">
-            <summary>Sets the Shim of AbsSUV.set_MyProperty(CarColor value)</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV.BehaveAsCurrent">
-            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV.BehaveAsNotImplemented">
-            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV.Behavior">
-            <summary>Assigns the behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV.Constructor">
-            <summary>Sets the Shim of AbsSUV.AbsSUV()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV.Greeting">
-            <summary>Sets the Shim of AbsSUV.Greeting()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV.MyPropertyGet">
-            <summary>Sets the Shim of AbsSUV.get_MyProperty()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimAbsSUV.MyPropertySetCarColor">
-            <summary>Sets the Shim of AbsSUV.set_MyProperty(CarColor value)</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.SUV.Fakes.ShimRX350">
-            <summary>Shim type of VehicleLogic.Model.SUV.RX350</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.ShimRX350.#ctor">
-            <summary>Initializes a new shim instance</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.ShimRX350.#ctor(VehicleLogic.Model.SUV.RX350)">
-            <summary>Initializes a new shim for the given instance</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.SUV.Fakes.ShimRX350.AllInstances">
-            <summary>Define shims for all instances members</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimRX350.AllInstances.Describe">
-            <summary>Sets the Shim of RX350.Describe()</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.ShimRX350.BehaveAsCurrent">
-            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.ShimRX350.BehaveAsNotImplemented">
-            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimRX350.Behavior">
-            <summary>Assigns the behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimRX350.Constructor">
-            <summary>Sets the Shim of RX350.RX350()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimRX350.Describe">
-            <summary>Sets the Shim of RX350.Describe()</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.SUV.Fakes.ShimX70">
-            <summary>Shim type of VehicleLogic.Model.SUV.X70</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.ShimX70.#ctor">
-            <summary>Initializes a new shim instance</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.ShimX70.#ctor(VehicleLogic.Model.SUV.X70)">
-            <summary>Initializes a new shim for the given instance</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.SUV.Fakes.ShimX70.AllInstances">
-            <summary>Define shims for all instances members</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimX70.AllInstances.Describe">
-            <summary>Sets the Shim of X70.Describe()</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.ShimX70.BehaveAsCurrent">
-            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.ShimX70.BehaveAsNotImplemented">
-            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimX70.Behavior">
-            <summary>Assigns the behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimX70.Constructor">
-            <summary>Sets the Shim of X70.X70()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.ShimX70.Describe">
-            <summary>Sets the Shim of X70.Describe()</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.SUV.Fakes.StubAbsSUV">
-            <summary>Stub type of VehicleLogic.Model.SUV.AbsSUV</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.StubAbsSUV.#ctor">
-            <summary>Initializes a new instance</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.StubAbsSUV.CallBase">
-            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.StubAbsSUV.Describe">
-            <summary>Sets the Stub of AbsSUV.Describe()</summary>
-        </member>
-        <member name="F:VehicleLogic.Model.SUV.Fakes.StubAbsSUV.Describe01">
-            <summary>Sets the stub of AbsSUV.Describe()</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.StubAbsSUV.InitializeStub">
-            <summary>Initializes a new instance of type StubAbsSUV</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.StubAbsSUV.InstanceBehavior">
-            <summary>Gets or sets the instance behavior.</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.StubAbsSUV.InstanceObserver">
-            <summary>Gets or sets the instance observer.</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.SUV.Fakes.StubRX350">
-            <summary>Stub type of VehicleLogic.Model.SUV.RX350</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.StubRX350.#ctor">
-            <summary>Initializes a new instance</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.StubRX350.CallBase">
-            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.StubRX350.Describe">
-            <summary>Sets the Stub of RX350.Describe()</summary>
-        </member>
-        <member name="F:VehicleLogic.Model.SUV.Fakes.StubRX350.Describe01">
-            <summary>Sets the stub of RX350.Describe()</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.StubRX350.InitializeStub">
-            <summary>Initializes a new instance of type StubRX350</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.StubRX350.InstanceBehavior">
-            <summary>Gets or sets the instance behavior.</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.StubRX350.InstanceObserver">
-            <summary>Gets or sets the instance observer.</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.SUV.Fakes.StubX70">
-            <summary>Stub type of VehicleLogic.Model.SUV.X70</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.StubX70.#ctor">
-            <summary>Initializes a new instance</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.StubX70.CallBase">
-            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.StubX70.Describe">
-            <summary>Sets the Stub of X70.Describe()</summary>
-        </member>
-        <member name="F:VehicleLogic.Model.SUV.Fakes.StubX70.Describe01">
-            <summary>Sets the stub of X70.Describe()</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.SUV.Fakes.StubX70.InitializeStub">
-            <summary>Initializes a new instance of type StubX70</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.StubX70.InstanceBehavior">
-            <summary>Gets or sets the instance behavior.</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.SUV.Fakes.StubX70.InstanceObserver">
-            <summary>Gets or sets the instance observer.</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan">
-            <summary>Shim type of VehicleLogic.Model.Sedan.AbsSedan</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan.#ctor(VehicleLogic.Model.Sedan.AbsSedan)">
-            <summary>Initializes a new shim for the given instance</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan.AllInstances">
-            <summary>Define shims for all instances members</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan.AllInstances.Greeting">
-            <summary>Sets the Shim of AbsSedan.Greeting()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan.AllInstances.MyPropertyGet">
-            <summary>Sets the Shim of AbsSedan.get_MyProperty()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan.AllInstances.MyPropertySetCarColor">
-            <summary>Sets the Shim of AbsSedan.set_MyProperty(CarColor value)</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan.BehaveAsCurrent">
-            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan.BehaveAsNotImplemented">
-            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan.Behavior">
-            <summary>Assigns the behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan.Constructor">
-            <summary>Sets the Shim of AbsSedan.AbsSedan()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan.Greeting">
-            <summary>Sets the Shim of AbsSedan.Greeting()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan.MyPropertyGet">
-            <summary>Sets the Shim of AbsSedan.get_MyProperty()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimAbsSedan.MyPropertySetCarColor">
-            <summary>Sets the Shim of AbsSedan.set_MyProperty(CarColor value)</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.Sedan.Fakes.ShimC250">
-            <summary>Shim type of VehicleLogic.Model.Sedan.C250</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.ShimC250.#ctor">
-            <summary>Initializes a new shim instance</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.ShimC250.#ctor(VehicleLogic.Model.Sedan.C250)">
-            <summary>Initializes a new shim for the given instance</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.Sedan.Fakes.ShimC250.AllInstances">
-            <summary>Define shims for all instances members</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimC250.AllInstances.Describe">
-            <summary>Sets the Shim of C250.Describe()</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.ShimC250.BehaveAsCurrent">
-            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.ShimC250.BehaveAsNotImplemented">
-            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimC250.Behavior">
-            <summary>Assigns the behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimC250.Constructor">
-            <summary>Sets the Shim of C250.C250()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimC250.Describe">
-            <summary>Sets the Shim of C250.Describe()</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.Sedan.Fakes.ShimSaga">
-            <summary>Shim type of VehicleLogic.Model.Sedan.Saga</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.ShimSaga.#ctor">
-            <summary>Initializes a new shim instance</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.ShimSaga.#ctor(VehicleLogic.Model.Sedan.Saga)">
-            <summary>Initializes a new shim for the given instance</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.Sedan.Fakes.ShimSaga.AllInstances">
-            <summary>Define shims for all instances members</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimSaga.AllInstances.Describe">
-            <summary>Sets the Shim of Saga.Describe()</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.ShimSaga.BehaveAsCurrent">
-            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.ShimSaga.BehaveAsNotImplemented">
-            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimSaga.Behavior">
-            <summary>Assigns the behavior for all methods of the shimmed type</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimSaga.Constructor">
-            <summary>Sets the Shim of Saga.Saga()</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.ShimSaga.Describe">
-            <summary>Sets the Shim of Saga.Describe()</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.Sedan.Fakes.StubAbsSedan">
-            <summary>Stub type of VehicleLogic.Model.Sedan.AbsSedan</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.StubAbsSedan.#ctor">
-            <summary>Initializes a new instance</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.StubAbsSedan.CallBase">
-            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.StubAbsSedan.Describe">
-            <summary>Sets the Stub of AbsSedan.Describe()</summary>
-        </member>
-        <member name="F:VehicleLogic.Model.Sedan.Fakes.StubAbsSedan.Describe01">
-            <summary>Sets the stub of AbsSedan.Describe()</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.StubAbsSedan.InitializeStub">
-            <summary>Initializes a new instance of type StubAbsSedan</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.StubAbsSedan.InstanceBehavior">
-            <summary>Gets or sets the instance behavior.</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.StubAbsSedan.InstanceObserver">
-            <summary>Gets or sets the instance observer.</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.Sedan.Fakes.StubC250">
-            <summary>Stub type of VehicleLogic.Model.Sedan.C250</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.StubC250.#ctor">
-            <summary>Initializes a new instance</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.StubC250.CallBase">
-            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.StubC250.Describe">
-            <summary>Sets the Stub of C250.Describe()</summary>
-        </member>
-        <member name="F:VehicleLogic.Model.Sedan.Fakes.StubC250.Describe01">
-            <summary>Sets the stub of C250.Describe()</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.StubC250.InitializeStub">
-            <summary>Initializes a new instance of type StubC250</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.StubC250.InstanceBehavior">
-            <summary>Gets or sets the instance behavior.</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.StubC250.InstanceObserver">
-            <summary>Gets or sets the instance observer.</summary>
-        </member>
-        <member name="T:VehicleLogic.Model.Sedan.Fakes.StubSaga">
-            <summary>Stub type of VehicleLogic.Model.Sedan.Saga</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.StubSaga.#ctor">
-            <summary>Initializes a new instance</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.StubSaga.CallBase">
-            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.StubSaga.Describe">
-            <summary>Sets the Stub of Saga.Describe()</summary>
-        </member>
-        <member name="F:VehicleLogic.Model.Sedan.Fakes.StubSaga.Describe01">
-            <summary>Sets the stub of Saga.Describe()</summary>
-        </member>
-        <member name="M:VehicleLogic.Model.Sedan.Fakes.StubSaga.InitializeStub">
-            <summary>Initializes a new instance of type StubSaga</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.StubSaga.InstanceBehavior">
-            <summary>Gets or sets the instance behavior.</summary>
-        </member>
-        <member name="P:VehicleLogic.Model.Sedan.Fakes.StubSaga.InstanceObserver">
-            <summary>Gets or sets the instance observer.</summary>
-        </member>
         <member name="T:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory">
             <summary>Shim type of VehicleLogic.ModelFactory.CompactFactory.ChevroletModelFactory</summary>
         </member>
@@ -2215,8 +1963,8 @@
         <member name="T:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.AllInstances.GetCarModelString">
-            <summary>Sets the Shim of ChevroletModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.AllInstances.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of ChevroletModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="M:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
@@ -2233,8 +1981,8 @@
         <member name="P:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.Constructor">
             <summary>Sets the Shim of ChevroletModelFactory.ChevroletModelFactory()</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.GetCarModelString">
-            <summary>Sets the Shim of ChevroletModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimChevroletModelFactory.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of ChevroletModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="T:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory">
             <summary>Shim type of VehicleLogic.ModelFactory.CompactFactory.ProtonModelFactory</summary>
@@ -2248,8 +1996,8 @@
         <member name="T:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.AllInstances.GetCarModelString">
-            <summary>Sets the Shim of ProtonModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.AllInstances.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of ProtonModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="M:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
@@ -2266,8 +2014,8 @@
         <member name="P:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.Constructor">
             <summary>Sets the Shim of ProtonModelFactory.ProtonModelFactory()</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.GetCarModelString">
-            <summary>Sets the Shim of ProtonModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.CompactFactory.Fakes.ShimProtonModelFactory.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of ProtonModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="T:VehicleLogic.ModelFactory.CompactFactory.Fakes.StubChevroletModelFactory">
             <summary>Stub type of VehicleLogic.ModelFactory.CompactFactory.ChevroletModelFactory</summary>
@@ -2317,8 +2065,8 @@
         <member name="T:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.AllInstances.GetCarModelString">
-            <summary>Sets the Shim of HondaModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.AllInstances.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of HondaModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="M:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
@@ -2335,8 +2083,8 @@
         <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.Constructor">
             <summary>Sets the Shim of HondaModelFactory.HondaModelFactory()</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.GetCarModelString">
-            <summary>Sets the Shim of HondaModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimHondaModelFactory.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of HondaModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="T:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory">
             <summary>Shim type of VehicleLogic.ModelFactory.EconModelFactory.MazdaModelFactory</summary>
@@ -2350,8 +2098,8 @@
         <member name="T:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.AllInstances.GetCarModelString">
-            <summary>Sets the Shim of MazdaModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.AllInstances.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of MazdaModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="M:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
@@ -2368,8 +2116,8 @@
         <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.Constructor">
             <summary>Sets the Shim of MazdaModelFactory.MazdaModelFactory()</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.GetCarModelString">
-            <summary>Sets the Shim of MazdaModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimMazdaModelFactory.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of MazdaModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="T:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory">
             <summary>Shim type of VehicleLogic.ModelFactory.EconModelFactory.ToyotaModelFactory</summary>
@@ -2383,8 +2131,8 @@
         <member name="T:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.AllInstances.GetCarModelString">
-            <summary>Sets the Shim of ToyotaModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.AllInstances.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of ToyotaModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="M:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
@@ -2401,8 +2149,8 @@
         <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.Constructor">
             <summary>Sets the Shim of ToyotaModelFactory.ToyotaModelFactory()</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.GetCarModelString">
-            <summary>Sets the Shim of ToyotaModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.EconModelFactory.Fakes.ShimToyotaModelFactory.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of ToyotaModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="T:VehicleLogic.ModelFactory.EconModelFactory.Fakes.StubHondaModelFactory">
             <summary>Stub type of VehicleLogic.ModelFactory.EconModelFactory.HondaModelFactory</summary>
@@ -2464,11 +2212,11 @@
         <member name="M:VehicleLogic.ModelFactory.Fakes.StubIVehicleModel.#ctor">
             <summary>Initializes a new instance of type StubIVehicleModel</summary>
         </member>
-        <member name="F:VehicleLogic.ModelFactory.Fakes.StubIVehicleModel.GetCarModelString">
-            <summary>Sets the stub of IVehicleModel.GetCarModel(String brand)</summary>
+        <member name="F:VehicleLogic.ModelFactory.Fakes.StubIVehicleModel.GetCarModelCarChoiceInfo">
+            <summary>Sets the stub of IVehicleModel.GetCarModel(CarChoiceInfo brand)</summary>
         </member>
-        <member name="M:VehicleLogic.ModelFactory.Fakes.StubIVehicleModel.VehicleLogic#ModelFactory#IVehicleModel#GetCarModel(System.String)">
-            <summary>Sets the Stub of IVehicleModel.GetCarModel(String brand)</summary>
+        <member name="M:VehicleLogic.ModelFactory.Fakes.StubIVehicleModel.VehicleLogic#ModelFactory#IVehicleModel#GetCarModel(VehicleLogic.CarChoiceInfo)">
+            <summary>Sets the Stub of IVehicleModel.GetCarModel(CarChoiceInfo brand)</summary>
         </member>
         <member name="T:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory">
             <summary>Shim type of VehicleLogic.ModelFactory.LuxModelFactory.AudiModelFactory</summary>
@@ -2482,8 +2230,8 @@
         <member name="T:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.AllInstances.GetCarModelString">
-            <summary>Sets the Shim of AudiModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.AllInstances.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of AudiModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="M:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
@@ -2500,8 +2248,8 @@
         <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.Constructor">
             <summary>Sets the Shim of AudiModelFactory.AudiModelFactory()</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.GetCarModelString">
-            <summary>Sets the Shim of AudiModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimAudiModelFactory.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of AudiModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="T:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory">
             <summary>Shim type of VehicleLogic.ModelFactory.LuxModelFactory.BMWModelFactory</summary>
@@ -2515,8 +2263,8 @@
         <member name="T:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.AllInstances.GetCarModelString">
-            <summary>Sets the Shim of BMWModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.AllInstances.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of BMWModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="M:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
@@ -2533,8 +2281,8 @@
         <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.Constructor">
             <summary>Sets the Shim of BMWModelFactory.BMWModelFactory()</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.GetCarModelString">
-            <summary>Sets the Shim of BMWModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBMWModelFactory.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of BMWModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="T:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory">
             <summary>Shim type of VehicleLogic.ModelFactory.LuxModelFactory.BenzModelFactory</summary>
@@ -2548,8 +2296,8 @@
         <member name="T:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.AllInstances.GetCarModelString">
-            <summary>Sets the Shim of BenzModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.AllInstances.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of BenzModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="M:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
@@ -2566,8 +2314,8 @@
         <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.Constructor">
             <summary>Sets the Shim of BenzModelFactory.BenzModelFactory()</summary>
         </member>
-        <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.GetCarModelString">
-            <summary>Sets the Shim of BenzModelFactory.GetCarModel(String brand)</summary>
+        <member name="P:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.ShimBenzModelFactory.GetCarModelCarChoiceInfo">
+            <summary>Sets the Shim of BenzModelFactory.GetCarModel(CarChoiceInfo CarInfo)</summary>
         </member>
         <member name="T:VehicleLogic.ModelFactory.LuxModelFactory.Fakes.StubAudiModelFactory">
             <summary>Stub type of VehicleLogic.ModelFactory.LuxModelFactory.AudiModelFactory</summary>

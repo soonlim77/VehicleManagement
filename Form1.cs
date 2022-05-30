@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using VehicleLogic.Enum;
+
 
 
 namespace VehicleManagement
@@ -19,7 +21,7 @@ namespace VehicleManagement
 
         private static int carmodelchoice;
 
-       ChoiceInfo CarChoice = null;
+        CarChoiceInfo CarChoice = null;
 
 
         public Form1()
@@ -104,15 +106,15 @@ namespace VehicleManagement
 
             string Greeting = "Tesla Company";
 
-
-               CarChoice = new ChoiceInfo(cbVehicleClass.Text.Trim(), cbCarBrand.Text, cbCarModel.Text);
+               
+               CarChoice = new CarChoiceInfo(cbVehicleClass.Text.Trim(), cbCarBrand.Text, cbCarModel.Text, CarColor.beigu);
             //
-               var level = LevelFactory.GetCarLevel(CarChoice.Level);
+               var level = LevelFactory.GetCarLevel(CarChoice);
 
-               var  branch = level.GetBranch(CarChoice.Branch);
-               var msg = branch.GetCarModel(CarChoice.Model);
+               var  branch = level.GetBranch(CarChoice);
+               var msg = branch.GetCarModel(CarChoice);
 
-            this.txtDescribe.Text = msg.Describe();
+            this.txtDescribe.Text = msg.Describe(CarChoice);
             var fp= msg.GetImagePath();
 
             //this.pcCarImage.Image=Image.FromFile("C:\\soonlim\\VehicleManagement\\CarImages\\Luxurious\\BMW\\X1.JPG");
