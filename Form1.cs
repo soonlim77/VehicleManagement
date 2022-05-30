@@ -96,7 +96,7 @@ namespace VehicleManagement
 
 
             CarModelinitialization();
-
+            btnDescribeMe.Enabled = true;
         }
 
         
@@ -138,6 +138,7 @@ namespace VehicleManagement
         {
 
             CarBrandinitialization();
+            btnDescribeMe.Enabled = false;
         }
 
        

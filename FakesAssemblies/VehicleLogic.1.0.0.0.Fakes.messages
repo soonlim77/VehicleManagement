@@ -1,3 +1,0 @@
-C:\soonlim\VehicleManagement\Fakes\Logic.fakes : warning : Cannot generate stub for VehicleLogic.ImageHelper: Type is sealed.
-C:\soonlim\VehicleManagement\Fakes\Logic.fakes : warning : Cannot generate stub for VehicleLogic.Model.Car.Econ.Vios: Type is not visible to exported or assembly(VehicleLogic.1.0.0.0.Fakes).
-C:\soonlim\VehicleManagement\Fakes\Logic.fakes : warning : Cannot generate shim for VehicleLogic.Model.Car.Econ.Vios: Type is not visible to exported or assembly(VehicleLogic.1.0.0.0.Fakes).
