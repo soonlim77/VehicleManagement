@@ -52,7 +52,7 @@ namespace VehicleManagement
             this.lbLevel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbLevel.Location = new System.Drawing.Point(17, 30);
             this.lbLevel.Name = "lbLevel";
-            this.lbLevel.Size = new System.Drawing.Size(97, 19);
+            this.lbLevel.Size = new System.Drawing.Size(118, 24);
             this.lbLevel.TabIndex = 0;
             this.lbLevel.Text = "Level Class";
             // 
@@ -62,7 +62,7 @@ namespace VehicleManagement
             this.lbCarBrand.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCarBrand.Location = new System.Drawing.Point(254, 30);
             this.lbCarBrand.Name = "lbCarBrand";
-            this.lbCarBrand.Size = new System.Drawing.Size(56, 19);
+            this.lbCarBrand.Size = new System.Drawing.Size(67, 24);
             this.lbCarBrand.TabIndex = 1;
             this.lbCarBrand.Text = "Brand";
             this.lbCarBrand.Visible = false;
@@ -73,7 +73,7 @@ namespace VehicleManagement
             this.lbCarModel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCarModel.Location = new System.Drawing.Point(474, 30);
             this.lbCarModel.Name = "lbCarModel";
-            this.lbCarModel.Size = new System.Drawing.Size(55, 19);
+            this.lbCarModel.Size = new System.Drawing.Size(67, 24);
             this.lbCarModel.TabIndex = 2;
             this.lbCarModel.Text = "Model";
             this.lbCarModel.Visible = false;
@@ -88,7 +88,7 @@ namespace VehicleManagement
             "Compact"});
             this.cbVehicleClass.Location = new System.Drawing.Point(12, 66);
             this.cbVehicleClass.Name = "cbVehicleClass";
-            this.cbVehicleClass.Size = new System.Drawing.Size(121, 24);
+            this.cbVehicleClass.Size = new System.Drawing.Size(121, 27);
             this.cbVehicleClass.TabIndex = 3;
             this.cbVehicleClass.SelectedIndexChanged += new System.EventHandler(this.cbVehicleClass_SelectedIndexChanged);
             // 
@@ -98,7 +98,7 @@ namespace VehicleManagement
             this.cbCarBrand.FormattingEnabled = true;
             this.cbCarBrand.Location = new System.Drawing.Point(231, 66);
             this.cbCarBrand.Name = "cbCarBrand";
-            this.cbCarBrand.Size = new System.Drawing.Size(121, 24);
+            this.cbCarBrand.Size = new System.Drawing.Size(121, 27);
             this.cbCarBrand.TabIndex = 4;
             this.cbCarBrand.Visible = false;
             this.cbCarBrand.SelectedIndexChanged += new System.EventHandler(this.cbCarBrand_SelectedIndexChanged);
@@ -109,7 +109,7 @@ namespace VehicleManagement
             this.cbCarModel.FormattingEnabled = true;
             this.cbCarModel.Location = new System.Drawing.Point(446, 66);
             this.cbCarModel.Name = "cbCarModel";
-            this.cbCarModel.Size = new System.Drawing.Size(121, 24);
+            this.cbCarModel.Size = new System.Drawing.Size(121, 27);
             this.cbCarModel.TabIndex = 5;
             this.cbCarModel.Visible = false;
             // 
@@ -119,7 +119,7 @@ namespace VehicleManagement
             this.btnDescribeMe.Enabled = false;
             this.btnDescribeMe.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDescribeMe.ForeColor = System.Drawing.Color.Black;
-            this.btnDescribeMe.Location = new System.Drawing.Point(318, 462);
+            this.btnDescribeMe.Location = new System.Drawing.Point(318, 458);
             this.btnDescribeMe.Name = "btnDescribeMe";
             this.btnDescribeMe.Size = new System.Drawing.Size(158, 51);
             this.btnDescribeMe.TabIndex = 6;
@@ -150,12 +150,12 @@ namespace VehicleManagement
             this.txtDescribe.Multiline = true;
             this.txtDescribe.Name = "txtDescribe";
             this.txtDescribe.ReadOnly = true;
-            this.txtDescribe.Size = new System.Drawing.Size(494, 30);
+            this.txtDescribe.Size = new System.Drawing.Size(554, 30);
             this.txtDescribe.TabIndex = 9;
             // 
             // pcCarImage
             // 
-            this.pcCarImage.Location = new System.Drawing.Point(151, 106);
+            this.pcCarImage.Location = new System.Drawing.Point(150, 91);
             this.pcCarImage.Name = "pcCarImage";
             this.pcCarImage.Size = new System.Drawing.Size(271, 140);
             this.pcCarImage.TabIndex = 11;
@@ -168,14 +168,14 @@ namespace VehicleManagement
             this.gbCarInfo.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbCarInfo.Location = new System.Drawing.Point(110, 161);
             this.gbCarInfo.Name = "gbCarInfo";
-            this.gbCarInfo.Size = new System.Drawing.Size(575, 282);
+            this.gbCarInfo.Size = new System.Drawing.Size(575, 265);
             this.gbCarInfo.TabIndex = 12;
             this.gbCarInfo.TabStop = false;
             this.gbCarInfo.Text = "Vehicle Information";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(798, 525);
             this.Controls.Add(this.groupBox1);

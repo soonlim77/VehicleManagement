@@ -27,7 +27,7 @@ namespace VehicleManagement
         public Form1()
         {
             InitializeComponent();
-             // CarModelinitialization();
+            btnDescribeMe.Enabled = false;
         }
 
 
@@ -93,8 +93,6 @@ namespace VehicleManagement
 
         private void cbCarBrand_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-
             CarModelinitialization();
             btnDescribeMe.Enabled = true;
         }
@@ -104,9 +102,7 @@ namespace VehicleManagement
         private void btnDescribeMe_Click(object sender, EventArgs e)
         {
 
-            string Greeting = "Tesla Company";
-
-               
+                           
                CarChoice = new CarChoiceInfo(cbVehicleClass.Text.Trim(), cbCarBrand.Text, cbCarModel.Text, CarColor.beigu);
             //
                var level = LevelFactory.GetCarLevel(CarChoice);
@@ -136,9 +132,14 @@ namespace VehicleManagement
 
         private void cbVehicleClass_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+             
             CarBrandinitialization();
-            btnDescribeMe.Enabled = false;
+
+            if (btnDescribeMe.Enabled == true)
+                btnDescribeMe.Enabled = false;
+
+                 
+          //  btnDescribeMe.Enabled = false;
         }
 
        
